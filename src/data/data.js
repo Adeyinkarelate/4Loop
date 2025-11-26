@@ -1,0 +1,308 @@
+import java from "../assets/images/java.jpg";
+import dev from "../assets/images/dev.jpg";
+import data from "../assets/images/data.jpg";
+
+export const springTestimonial = [
+  {
+    name: "Ananya Gupta",
+    title: "Senior Java Developer, TechNova Solutions",
+    testimonial:
+      "Spring Boot completely changed how we approach backend development at TechNova. Before adopting it, setting up new microservices required extensive configuration, dependency management, and repetitive XML files. With Spring Boot, our setup time dropped from days to just a few hours. Its opinionated defaults and embedded Tomcat made deployment incredibly smooth. We no longer worry about managing complex application servers or lengthy configurations. \n\nWhat’s even more impressive is the ecosystem — the integration with Spring Security, Spring Data JPA, and Actuator gives us everything we need to build secure, observable, and maintainable applications. The documentation is exceptional, and the community support is top-notch. I can confidently say Spring Boot has allowed us to scale faster while maintaining code quality and developer happiness.",
+  },
+  {
+    name: "Marcus Reed",
+    title: "Backend Architect, CloudEdge Systems",
+    testimonial:
+      "Spring Boot is the cornerstone of our microservices architecture. The ease of creating production-ready services with minimal configuration is unmatched. The way it integrates with Docker and Kubernetes simplifies our CI/CD pipeline, making deployments predictable and consistent. With Spring Boot, we achieved a microservice ecosystem that is both highly decoupled and easy to monitor through built-in Actuator endpoints. \n\nFrom an architectural standpoint, it gives you freedom — you can design reactive systems using WebFlux, or stick with traditional REST APIs, all within the same ecosystem. The consistency in coding standards and structure across our teams has dramatically improved productivity. I’ve worked with many Java frameworks, but none deliver such a balance between flexibility, speed, and reliability as Spring Boot does.",
+  },
+  {
+    name: "Priya Nair",
+    title: "Lead Software Engineer, QuantumLeap Technologies",
+    testimonial:
+      "As a lead engineer managing multiple enterprise-level projects, I needed a framework that could reduce complexity without compromising scalability. Spring Boot did exactly that. It enabled us to break our massive monolith into well-defined microservices, each independently deployable and easy to maintain. The built-in dependency injection and auto-configuration helped us eliminate tons of boilerplate code. \n\nOne of the standout features is Spring Boot’s testing framework. It integrates seamlessly with JUnit and Mockito, allowing us to write cleaner, more maintainable tests that ensure stability across all our environments. Combined with Spring Cloud, it gave us full control over service discovery, configuration, and resilience patterns. Spring Boot isn’t just a framework for building applications — it’s a complete ecosystem for modern Java development.",
+  },
+  {
+    name: "Daniel Kim",
+    title: "Microservices Consultant, DevStream Labs",
+    testimonial:
+      "I’ve worked with clients across finance, healthcare, and logistics — and in every case, Spring Boot proved to be the most reliable choice for building resilient systems. Its focus on convention over configuration saves developers from decision fatigue, while still allowing deep customization when needed. The ease of integrating with third-party services like Kafka, Redis, and Elasticsearch has made it a universal choice for enterprise-grade solutions. \n\nWhat really sets Spring Boot apart is how it encourages best practices. The structure it enforces naturally leads to cleaner code, modular design, and better testing discipline. Every project I’ve implemented with it has benefited from faster delivery cycles and fewer production issues. In a world full of frameworks promising speed, Spring Boot actually delivers stability, maturity, and scalability without compromise.",
+  },
+];
+
+export const JavaModules = [
+  // ------------------ MONTH 1 ------------------
+  {
+    title: "Month 1: HTML & CSS Fundamentals",
+    submodules: [
+      {
+        name: "Module 1: HTML Basics (Week 1–2)",
+        items: [
+          "Structure of an HTML Document",
+          "Semantic HTML Tags",
+          "Forms & Inputs",
+          "Media Elements (Images, Audio, Video)",
+        ],
+      },
+      {
+        name: "Module 2: CSS Fundamentals (Week 3–4)",
+        items: [
+          "Selectors & Specificity",
+          "Box Model",
+          "Flexbox & Grid",
+          "Responsive Design Principles",
+        ],
+      },
+    ],
+  },
+
+  // ------------------ MONTH 2 ------------------
+  {
+    title: "Month 2: Tailwind CSS & UI Design",
+    submodules: [
+      {
+        name: "Module 3: Tailwind CSS (Week 5–6)",
+        items: [
+          "Utility-First Workflow",
+          "Layout & Spacing",
+          "Typography",
+          "Custom Configurations",
+        ],
+      },
+      {
+        name: "Module 4: UI/UX Essentials (Week 7–8)",
+        items: [
+          "Component-Based Design",
+          "Design Systems",
+          "Building Reusable UI Components",
+          "Project: Landing Page UI",
+        ],
+      },
+    ],
+  },
+
+  // ------------------ MONTH 3 ------------------
+  {
+    title: "Month 3: JavaScript & React",
+    submodules: [
+      {
+        name: "Module 5: JavaScript Fundamentals (Week 9–10)",
+        items: [
+          "Variables, Functions & Scope",
+          "DOM Manipulation",
+          "Events",
+          "ES6+ Features",
+        ],
+      },
+      {
+        name: "Module 6: React Development (Week 11–12)",
+        items: [
+          "Components & Props",
+          "State & Effects",
+          "Routing",
+          "Project: React Multi-Page App",
+        ],
+      },
+    ],
+  },
+
+  // ------------------ MONTH 4 ------------------
+  {
+    title: "Month 4: Java Programming",
+    submodules: [
+      {
+        name: "Module 7: Core Java (Week 13–14)",
+        items: [
+          "Variables, Loops, Methods",
+          "OOP Concepts (Inheritance, Polymorphism)",
+          "Exception Handling",
+        ],
+      },
+      {
+        name: "Module 8: Java Advanced (Week 15–16)",
+        items: [
+          "Collections Framework",
+          "Java Streams",
+          "File Handling & Serialization",
+        ],
+      },
+    ],
+  },
+
+  // ------------------ MONTH 5 ------------------
+  {
+    title: "Month 5: Databases (MongoDB) & Backend Foundations",
+    submodules: [
+      {
+        name: "Module 9: MongoDB (Week 17–18)",
+        items: [
+          "CRUD Operations",
+          "Schema Design",
+          "Aggregation Pipeline",
+          "Project: NoSQL Database Design",
+        ],
+      },
+    ],
+  },
+
+  // ------------------ MONTH 6 ------------------
+  {
+    title: "Month 6: Spring Boot Backend Development",
+    submodules: [
+      {
+        name: "Module 10: Spring Boot Basics (Week 19–20)",
+        items: [
+          "Spring Boot Basics",
+          "Dependency Injection",
+          "Controllers & Services",
+        ],
+      },
+      {
+        name: "Module 11: Spring Boot Advanced (Week 21–24)",
+        items: [
+          "Spring Data JPA",
+          "REST APIs",
+          "Security & JWT",
+          "Final Project: Full Stack Application",
+        ],
+      },
+    ],
+  },
+];
+
+export const DevOpsModules = [
+  {
+    title: "Month 1: Linux & GitLab",
+    submodules: [
+      {
+        name: "Module 1: Linux Fundamentals (Week 1–2)",
+        items: [
+          "Linux Architecture & File System",
+          "Essential Commands (ls, grep, find, chmod)",
+          "User & Group Management",
+          "File Permissions & Ownership",
+          "Package Management (apt/yum)",
+          "System Monitoring & Logs",
+          "Bash Scripting Basics",
+        ],
+      },
+      {
+        name: "Module 2: Git & GitLab (Week 3–4)",
+        items: [
+          "Git Command Line Workflow",
+          "Branching, Merging, Rebasing",
+          "Resolving Merge Conflicts",
+          "GitLab Project & Repository Setup",
+          "Merge Requests & Issue Boards",
+          "GitLab Runners Introduction",
+        ],
+      },
+    ],
+  },
+
+  {
+    title: "Month 2: Amazon Web Services (AWS)",
+    submodules: [
+      {
+        name: "Module 3: AWS Core Services (Week 5–6)",
+        items: [
+          "IAM Users, Roles & Security",
+          "EC2 Instances & AMIs",
+          "VPC, Subnets, Routing",
+          "Security Groups & Firewalls",
+          "S3 Buckets & Lifecycle Rules",
+          "CloudWatch Monitoring",
+        ],
+      },
+      {
+        name: "Module 4: Intermediate AWS (Week 7–8)",
+        items: [
+          "Load Balancers (ALB/NLB)",
+          "Auto Scaling Groups",
+          "RDS & DynamoDB Basics",
+          "Route 53 DNS Management",
+          "Elastic Beanstalk Introduction",
+          "CloudFormation Basics",
+        ],
+      },
+    ],
+  },
+
+  {
+    title: "Month 3: Terraform & CI/CD",
+    submodules: [
+      {
+        name: "Module 5: Terraform (Week 9–10)",
+        items: [
+          "Infrastructure as Code (IaC) Concepts",
+          "Terraform Providers & Resources",
+          "Variables, Outputs & Templates",
+          "State Management (Local & Remote)",
+          "Terraform Modules",
+          "Deploying AWS Infra with Terraform",
+        ],
+      },
+      {
+        name: "Module 6: CI/CD with GitLab (Week 11–12)",
+        items: [
+          "Understanding CI/CD Pipelines",
+          "GitLab Runners (Shell/Docker)",
+          "Writing .gitlab-ci.yml Pipelines",
+          "Pipeline Stages & Jobs",
+          "Automated Testing & Deployment",
+          "CI/CD Best Practices",
+        ],
+      },
+    ],
+  },
+
+  {
+    title: "Month 4: Docker & Kubernetes",
+    submodules: [
+      {
+        name: "Module 7: Docker (Week 13–14)",
+        items: [
+          "Docker Installation & Architecture",
+          "Images, Containers & Registries",
+          "Dockerfiles & Multi-Stage Builds",
+          "Volumes & Networking",
+          "Docker Compose",
+        ],
+      },
+      {
+        name: "Module 8: Kubernetes (Week 15–16)",
+        items: [
+          "Kubernetes Architecture",
+          "Pods, Deployments & Services",
+          "ConfigMaps & Secrets",
+          "Ingress Controllers",
+          "Helm Charts",
+          "Deploying Applications to K8s",
+        ],
+      },
+    ],
+  },
+];
+
+export const courseCategories = [
+  {
+    id: 1,
+    title: "Full Stack Java",
+    desc: "Essential skills for anyone pursuing a career as a full-stack Java developer. Learn Java fundamentals, object-oriented programming, Spring Boot, APIs, databases, and real-world application development.",
+    image: java,
+    url: "/java",
+  },
+  {
+    id: 2,
+    title: "DevOps",
+    desc: "Essential skills for anyone pursuing a career as a professional DevOps engineer. Learn Linux fundamentals, cloud infrastructure with AWS, Terraform for IaC, CI/CD pipelines, Docker, and Kubernetes for modern application deployment.",
+    image: dev,
+    url: "/dev",
+  },
+  {
+    id: 3,
+    title: "Data Analysis",
+    desc: "Essential skills for anyone pursuing a career as a professional data analyst. Learn Excel fundamentals, SQL for data querying, Python for analysis, data visualization with Power BI, and real-world techniques for turning raw data .",
+    image: data,
+    url: "",
+  },
+];
