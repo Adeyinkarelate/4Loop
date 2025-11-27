@@ -3,6 +3,7 @@ import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Java from "../src/pages/Java"
 import Home from "./pages/Home";
 import DevOPs from "./pages/DevOPs";
+import Contact from "./pages/Contact";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
         <Route path="/" element={<Home/>}/>
         <Route path="/java" element={<Java/>}/>
         <Route path="/dev" element={<DevOPs/>}/>
+        <Route path="/contact" element={<Contact/>}/>
       </Routes>
     </BrowserRouter>
   );
