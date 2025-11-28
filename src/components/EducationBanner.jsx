@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const EducationBanner = () => {
   return (
     <section className="mt-4 px-4 sm:px-0">
-      <div className="mx-auto rounded-2xl bg-custom_light_purple px-4 py-8 sm:max-w-[85vw] sm:px-6 sm:py-12 lg:px-8 lg:py-16">
+      <div className="mx-auto rounded-2xl  px-4 py-8 sm:max-w-[85vw] sm:px-6 sm:py-12 lg:px-8 lg:py-16">
         <div className="grid grid-cols-1 gap-10 lg:grid-cols-2 lg:gap-9">
           <div className="overflow-hidde order-las relative rounded-lg lg:order-last lg:h-full">
             <img

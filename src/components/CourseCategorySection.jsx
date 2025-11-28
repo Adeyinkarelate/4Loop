@@ -3,7 +3,7 @@ import { courseCategories } from "../data/data";
 
 export default function CourseCategorySection() {
   return (
-    <section className="bg-[#0B0C0E] py-16 flex flex-col gap-4 justify-center items-center">
+    <section className="bg-zinc-900 py-16 flex flex-col gap-4 justify-center items-center">
       <div className="flex justify-center max-w-2xl px-4">
         <h2 className=" font-out text-center text-3xl md:text-4xl font-semibold mb-12 bg-linear-to-r from-purple-800 to-purple-300 bg-transparent bg-clip-text text-transparent">
           Follow a proven path to build real coding skills and land your dream

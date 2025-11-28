@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div class="navbar bg-black text-white shadow-sm font-out">
+    <div class="navbar bg-black text-white shadow-sm shadow-zinc-900 fixed z-20 top-0 font-out">
       <div class="navbar-start">
         {/* ========Dropdown============ */}
         <div class="dropdown">
@@ -26,7 +26,7 @@ const Navbar = () => {
           </div>
           <ul
             tabindex="-1"
-            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-82 p-2 shadow"
+            class="menu menu-lg dropdown-content bg-black  z-1 mt-3 w-[400px] p-4 border-b-2 shadow-amber-700 font-out"
           >
             <li>
               <Link to="/contact">Contact</Link>
@@ -51,7 +51,7 @@ const Navbar = () => {
         <Link to="/" class="btn btn-ghost text-xl">daisyUI</Link>
       </div>
       <div class="navbar-center hidden lg:flex rounded-none">
-        <ul class="menu menu-horizontal px-1">
+        <ul class="menu menu-horizontal px-1 menu-md">
           <li>
             <Link to="/contact">Contact</Link>
           </li>

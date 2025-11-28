@@ -9,7 +9,7 @@ import { Helmet } from 'react-helmet'
 
 const Home = () => {
   return (
-    <div>
+    <div className='bg-black'>
       <Helmet>
         <title>Home | Adexbit's Tech Fusion Hub</title>
         <meta name="title" content="Home | Adexbit's Tech Fusion Hub" />

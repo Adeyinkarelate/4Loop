@@ -5,6 +5,9 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import { IoLogoWhatsapp } from "react-icons/io";
+import { AiFillTikTok } from "react-icons/ai";
+import { FaPhone } from "react-icons/fa";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -27,7 +30,6 @@ export default function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    
     emailjs
       .send(
         "service_m2gi5rs",
@@ -43,7 +45,6 @@ export default function Contact() {
         console.log(err);
         toast.error("Failed to send message. Try again.");
       });
-
   };
 
   return (
@@ -51,9 +52,9 @@ export default function Contact() {
       <Navbar />
       <Toaster position="top-center" />
 
-      <div className="w-full min-h-screen bg-zinc-900">
+      <div className="w-full min-h-screen bg-zinc-900 ">
         <section className="h-[450px] w-full ">
-          <div className=" bg-black  py-10">
+          <div className=" bg-black  py-10 ">
             <div className=" flex flex-col justify-center items-center text-center">
               <div className="space-y-6 lg:py-16 ">
                 <motion.h2
@@ -93,8 +94,10 @@ export default function Contact() {
                   }}
                   className="max-w-3xl text-base text-gray-400 md:text-lg"
                 >
-                  For technical questions, please post your questions on whatsapp where you can get help from representative. For course
-                  suggestions and career advice, check out our learning paths.
+                  For technical questions, please post your questions on
+                  whatsapp where you can get help from representative. For
+                  course suggestions and career advice, check out our learning
+                  paths.
                 </motion.p>
 
                 <div className="space-x-2">
@@ -168,9 +171,9 @@ export default function Contact() {
                         fill="currentColor"
                       />
                     </svg>
-                    Online & Offline Learning
+                     live interractive sessions
                   </li>
-                </ul> 
+                </ul>
               </div>
             </div>
           </div>
@@ -182,20 +185,34 @@ export default function Contact() {
             {/* ================================= */}
             <section class="w-full  py-16 px-4">
               <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <div className="bg-[#0f0f0f] rounded-2xl p-6 text-center border border-gray-800 shadow-lg hover:scale-110 transition">
-                  <h2 className="text-4xl font-bold text-purple-400">10M+</h2>
-                  <p className="text-gray-300 mt-2">Students taught</p>
-                </div>
+                
+                  <div className="bg-[#0f0f0f] rounded-2xl p-6 text-center border border-gray-800 shadow-lg hover:scale-110 transition flex flex-col items-center justify-center cursor-pointer">
+                    <FaPhone className="text-5xl text-red-400"/>
+                    <h1 className="text-gray-300 mt-2 font-out font-bold text-3xl md:text-lg">09063571320</h1>
+                  </div>
+                
 
-                <div className="bg-[#0f0f0f] rounded-2xl p-6 text-center border border-gray-800 shadow-lg hover:scale-110 transition">
-                  <h2 className="text-4xl font-bold text-green-400">4M</h2>
-                  <p className="text-gray-300 mt-2">YouTube fans</p>
-                </div>
+                <a
+                  href="https://wa.me/2349063571320"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className=" bg-[#0f0f0f] rounded-2xl p-6 text-center border border-gray-800 shadow-lg hover:scale-110 transition flex flex-col items-center justify-center cursor-pointer">
+                    <IoLogoWhatsapp className="text-green-400 text-5xl" />
+                    <p className="text-gray-300 mt-2 text-3xl md:text-lg">Chart Us</p>
+                  </div>
+                </a>
 
-                <div className="bg-[#0f0f0f] rounded-2xl p-6 text-center border border-gray-800 shadow-lg hover:scale-110 transition">
-                  <h2 className="text-4xl font-bold text-pink-400">20+</h2>
-                  <p className="text-gray-300 mt-2">Years of experience</p>
-                </div>
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="bg-[#0f0f0f] rounded-2xl p-6 text-center border border-gray-800 shadow-lg hover:scale-110 transition flex flex-col items-center justify-center cursor-pointer">
+                    <AiFillTikTok className="text-white text-5xl"/>
+                    <p className="text-gray-300 mt-2 text-3xl md:text-lg">Follow Us</p>
+                  </div>
+                </a>
 
                 <div className="bg-[#0f0f0f] rounded-2xl p-6 text-center border border-gray-800 shadow-lg hover:scale-110 transition">
                   <h2 className="text-4xl font-bold text-orange-400">52</h2>
@@ -269,7 +286,10 @@ export default function Contact() {
                     />
                   </div>
 
-                  <button className="btn bg-purple-800 mt-4 text-white" type="submit">
+                  <button
+                    className="btn bg-purple-800 mt-4 text-white"
+                    type="submit"
+                  >
                     Send Message
                   </button>
                 </form>
