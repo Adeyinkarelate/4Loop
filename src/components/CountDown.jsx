@@ -32,10 +32,10 @@ export default function Countdown() {
   }, []);
 
   return (
-    <div className="h-[350px] md:max-h-screen flex items-center justify-center bg-black text-white p-6">
+    <div className="h-[350px] md:max-h-screen flex items-center justify-center bg-black text-white p-6 mt-[120px]">
       <div className="text-center p-10  rounded-2xl shadow-2xl">
         <h1 className="text-4xl font-bold mb-6 font-out">Countdown to Jan 15 (Starting Now)</h1>
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 text-center my-8">
           <div className=" rounded-2xl p-6 text-center border border-gray-800 shadow-lg hover:scale-110 transition flex flex-col items-center justify-center cursor-pointer">
             <p className="text-5xl font-bold text-red-400">{timeLeft.days}</p>
             <p className="uppercase text-sm mt-2">Days</p>

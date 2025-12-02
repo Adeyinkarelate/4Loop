@@ -5,6 +5,7 @@ import EducationBanner from '../components/EducationBanner'
 import Footer from '../components/Footer'
 import { Helmet } from 'react-helmet'
 import Countdown from '../components/CountDown'
+import Team from '../components/Team'
 
 
 
@@ -35,7 +36,8 @@ const Home = () => {
       <Navbar /> 
       <EducationBanner/>
       <CourseCategorySection />
-      <Countdown/>
+      <Countdown/> 
+      <Team/>
       <Footer/>
     </div>
   )

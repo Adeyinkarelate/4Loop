@@ -2,6 +2,9 @@ import java from "../assets/images/java.jpg";
 import dev from "../assets/images/dev.jpg";
 import data from "../assets/images/data.jpg";
 
+import mat from "../assets/images/mathew.jpeg"
+import emm from "../assets/images/Emmanuel.jpeg"
+
 export const springTestimonial = [
   {
     name: "Ananya Gupta",
@@ -305,4 +308,50 @@ export const courseCategories = [
     image: data,
     url: "",
   },
+];
+
+
+export const TeamMembers = [
+  {
+    name: "Ayinde M.B",
+    position: "Bsc Physic (O.O.U Ago Iwoye)",
+    cert: "MIT (University of Lagos)",
+    linkedInURL: "https://www.linkedin.com/in/muritala-muyideen/",
+    image:dev,
+    location: "Nigeria",
+  },
+  {
+    name: "Emmanuel Oladejo Olatunde",
+    position: "Bsc Physic (University of Ibadan)",
+    cert: "Microsoft Certified Data-Analysis",
+    linkedInURL: "https://www.linkedin.com/in/emmanuel-oladejo-olatunde/",
+    image:emm,
+    location: "Nigeria",
+  },
+  
+  {
+    name: "Adelowo Mathew Oluwaseun",
+    position: "Bsc In Education (University of Ilorin)",
+    cert: " AWS Certified Cloud Practitioner",
+    linkedInURL: "",
+    image:mat,    
+    location: "Nigeria",
+  },
+  {
+    name: "Israel Akinoso",
+    position: "Bsc Information Tech (Middlesex University)",
+    linkedInURL: "https://www.linkedin.com/in/israel-akinoso/",
+    image:
+      "https://res.cloudinary.com/ds4h5p2np/image/upload/f_auto,q_auto/v1/adexbit/israel_akinoso",
+    location: "London, UK",
+  },
+  
+  // {
+  //   name: "George Kolawole",
+  //   position: "Forex",
+  //   linkedInURL: "https://www.linkedin.com/in/kolawole-george-4b914a212/",
+  //   image:
+  //     "https://res.cloudinary.com/ds4h5p2np/image/upload/f_auto,q_auto/v1/adexbit/kolawole_george",
+  //   location: "Nigeria",
+  // },
 ];

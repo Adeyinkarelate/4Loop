@@ -50,7 +50,7 @@ export default function Contact() {
 
   return (
     <>
-    <Helmet>
+      <Helmet>
         <title>Contact Us| Adexbit's Tech Fusion Hub</title>
         <meta name="title" content="Contact Us| Adexbit's Tech Fusion Hub" />
         <meta
@@ -58,7 +58,10 @@ export default function Contact() {
           content=" Adexbit's Tech Fusion Hub is an online tech school where you get to learn new skills in a wide variety of inspiring, interactive workshops. As a student you get to learn web development, data analytics and forex."
         />
 
-        <meta name="og:title" content="Contact Us | Adexbit's Tech Fusion Hub" />
+        <meta
+          name="og:title"
+          content="Contact Us | Adexbit's Tech Fusion Hub"
+        />
         <meta
           name="og:description"
           content="Adexbit's Tech Fusion Hub is an online tech school where you get to learn new skills in a wide variety of inspiring, interactive workshops. As a student you get to learn web development, data analytics and forex."
@@ -193,7 +196,7 @@ export default function Contact() {
                         fill="currentColor"
                       />
                     </svg>
-                     live interractive sessions
+                    live interractive sessions
                   </li>
                 </ul>
               </div>
@@ -207,12 +210,12 @@ export default function Contact() {
             {/* ================================= */}
             <section class="w-full  py-16 px-4">
               <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-6">
-                
-                  <div className="bg-[#0f0f0f] rounded-2xl p-6 text-center border border-gray-800 shadow-lg hover:scale-110 transition flex flex-col items-center justify-center cursor-pointer">
-                    <FaPhone className="text-5xl text-red-400"/>
-                    <h1 className="text-gray-300 mt-2 font-out font-bold text-3xl md:text-lg">09063571320</h1>
-                  </div>
-                
+                <div className="bg-[#0f0f0f] rounded-2xl p-6 text-center border border-gray-800 shadow-lg hover:scale-110 transition flex flex-col items-center justify-center cursor-pointer">
+                  <FaPhone className="text-5xl text-red-400" />
+                  <h1 className="text-gray-300 mt-2 font-out font-bold text-3xl md:text-lg">
+                    09063571320
+                  </h1>
+                </div>
 
                 <a
                   href="https://wa.me/2349063571320"
@@ -221,18 +224,22 @@ export default function Contact() {
                 >
                   <div className=" bg-[#0f0f0f] rounded-2xl p-6 text-center border border-gray-800 shadow-lg hover:scale-110 transition flex flex-col items-center justify-center cursor-pointer">
                     <IoLogoWhatsapp className="text-green-400 text-5xl" />
-                    <p className="text-gray-300 mt-2 text-3xl md:text-lg">Chart Us</p>
+                    <p className="text-gray-300 mt-2 text-3xl md:text-lg">
+                      Chart Us
+                    </p>
                   </div>
                 </a>
 
                 <a
-                  href="#"
                   target="_blank"
+                  href="https://tiktok.com/@adexbits"
                   rel="noopener noreferrer"
                 >
                   <div className="bg-[#0f0f0f] rounded-2xl p-6 text-center border border-gray-800 shadow-lg hover:scale-110 transition flex flex-col items-center justify-center cursor-pointer">
-                    <AiFillTikTok className="text-white text-5xl"/>
-                    <p className="text-gray-300 mt-2 text-3xl md:text-lg">Follow Us</p>
+                    <AiFillTikTok className="text-white text-5xl" />
+                    <p className="text-gray-300 mt-2 text-3xl md:text-lg">
+                      Follow Us
+                    </p>
                   </div>
                 </a>
 
