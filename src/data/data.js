@@ -337,14 +337,14 @@ export const TeamMembers = [
     image:mat,    
     location: "Nigeria",
   },
-  {
-    name: "Israel Akinoso",
-    position: "Bsc Information Tech (Middlesex University)",
-    linkedInURL: "https://www.linkedin.com/in/israel-akinoso/",
-    image:
-      "https://res.cloudinary.com/ds4h5p2np/image/upload/f_auto,q_auto/v1/adexbit/israel_akinoso",
-    location: "London, UK",
-  },
+  // {
+  //   name: "Israel Akinoso",
+  //   position: "Bsc Information Tech (Middlesex University)",
+  //   linkedInURL: "https://www.linkedin.com/in/israel-akinoso/",
+  //   image:
+  //     "https://res.cloudinary.com/ds4h5p2np/image/upload/f_auto,q_auto/v1/adexbit/israel_akinoso",
+  //   location: "London, UK",
+  // },
   
   // {
   //   name: "George Kolawole",

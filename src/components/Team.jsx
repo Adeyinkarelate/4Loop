@@ -9,7 +9,7 @@ const Team = () => {
     <div>
      
 
-      <div className="max-w-7xl container mx-auto py-10 my-10">
+      <div className="max-w-7xl container mx-auto py-10 my-10 px-4">
         <div className="mx-auto mb-12 max-w-2xl text-center lg:mb-14">
           <h2 className="text-2xl font-semibold md:text-4xl font-out text-white">The Team</h2>
           <p className="mt-1 text-gray-400">

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "/logo.webp"
 
 const Navbar = () => {
   return (
@@ -48,7 +49,9 @@ const Navbar = () => {
           </ul>
         </div>
         {/* ========================== */}
-        <Link to="/" class="btn btn-ghost text-xl">daisyUI</Link>
+        <Link to="/" className="text-white">
+          <img src={logo} alt="" class="w-60 h-16 text-white" />
+        </Link>
       </div>
       <div class="navbar-center hidden lg:flex rounded-none">
         <ul class="menu menu-horizontal px-1 menu-md">
@@ -77,7 +80,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div class="navbar-end">
-        <a class="btn bg-black text-white">Enroll</a>
+        <Link to="contact" class="btn bg-black text-white">Enroll</Link>
       </div>
     </div>
   );
