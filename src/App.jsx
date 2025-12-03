@@ -4,6 +4,7 @@ import Java from "../src/pages/Java"
 import Home from "./pages/Home";
 import DevOPs from "./pages/DevOPs";
 import Contact from "./pages/Contact";
+import CourseCategorySection from "./pages/CourseCategorySection";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Route path="/java" element={<Java/>}/>
         <Route path="/dev" element={<DevOPs/>}/>
         <Route path="/contact" element={<Contact/>}/>
+        <Route path="/courses" element={<CourseCategorySection/>}/>
       </Routes>
     </BrowserRouter>
   );

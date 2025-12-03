@@ -1,6 +1,5 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import CourseCategorySection from '../components/CourseCategorySection'
 import EducationBanner from '../components/EducationBanner'
 import Footer from '../components/Footer'
 import { Helmet } from 'react-helmet'
@@ -35,7 +34,7 @@ const Home = () => {
       </Helmet>
       <Navbar /> 
       <EducationBanner/>
-      <CourseCategorySection />
+  {/* new course category section  */}
       <Countdown/> 
       <Team/>
       <Footer/>

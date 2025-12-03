@@ -33,6 +33,9 @@ const Navbar = () => {
               <Link to="/contact">Contact</Link>
             </li>
             <li>
+              <Link to="/courses">Courses</Link>
+            </li>
+            <li>
               <a>Learning Path</a>
               <ul class="p-2">
                 <li>
@@ -55,6 +58,9 @@ const Navbar = () => {
       </div>
       <div class="navbar-center hidden lg:flex rounded-none">
         <ul class="menu menu-horizontal px-1 menu-md">
+          <li>
+              <Link to="/courses">Courses</Link>
+            </li>
           <li>
             <Link to="/contact">Contact</Link>
           </li>
