@@ -32,7 +32,7 @@ export default function Countdown() {
   }, []);
 
   return (
-    <div className="h-[350px] md:max-h-screen flex items-center justify-center bg-black text-white p-6 mt-[120px]">
+    <div className="h-[450px] md:max-h-screen flex items-center justify-center bg-black text-white p-6 mt-[120px]">
       <div className="text-center p-10  rounded-2xl shadow-2xl">
         <h1 className="text-4xl font-bold mb-6 font-out">Countdown to Jan 15 (Starting Now)</h1>
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 text-center my-8">

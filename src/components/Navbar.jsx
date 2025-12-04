@@ -4,7 +4,7 @@ import logo from "/logo.webp"
 
 const Navbar = () => {
   return (
-    <div class="navbar bg-black text-white shadow-sm shadow-zinc-900 fixed z-20 top-0 font-out">
+    <div class="navbar bg-white text-black shadow-sm shadow-gray-300 fixed z-20 top-0 font-out ">
       <div class="navbar-start">
         {/* ========Dropdown============ */}
         <div class="dropdown">
@@ -27,7 +27,7 @@ const Navbar = () => {
           </div>
           <ul
             tabindex="-1"
-            class="menu menu-lg dropdown-content bg-black  z-1 mt-3 w-[400px] p-4 border-b-2 shadow-amber-700 font-out"
+            class="menu menu-lg dropdown-content bg-white text-black  z-1 mt-3 w-[400px] p-4 border-b-2 shadow-amber-700 font-out"
           >
             <li>
               <Link to="/contact">Contact</Link>

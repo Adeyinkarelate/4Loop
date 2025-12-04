@@ -7,10 +7,14 @@ import Contact from "./pages/Contact";
 import Frontend from "./pages/Frontend";
 import AwsSolutionArchitect from "./pages/AwsSolutionArchitect";
 import DemandPlanner from "./pages/DemandPlanner";
-import CourseCategorySection from "./pages/CourseCategorySection";
+import CourseCategorySection from "./pages/CourseCategorySection"; 
+import BackToTop from "./components/BackToTop/BackToTop";
+
 
 const App = () => {
   return (
+    <main>
+      <BackToTop/>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home/>}/>
@@ -23,6 +27,7 @@ const App = () => {
         <Route path="/courses" element={<CourseCategorySection/>}/>
       </Routes>
     </BrowserRouter>
+    </main>
   );
 };
 
