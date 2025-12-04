@@ -1,6 +1,9 @@
 import java from "../assets/images/java.jpg";
 import dev from "../assets/images/dev.jpg";
 import data from "../assets/images/data.jpg";
+import aws from "../assets/images/aws.jpg";
+import demand from "../assets/images/demand.jpg";
+import frontend from "../assets/images/frontend.jpg";
 
 import mat from "../assets/images/mathew.jpeg"
 import emm from "../assets/images/Emmanuel.jpeg"
@@ -308,6 +311,27 @@ export const courseCategories = [
     image: data,
     url: "",
   },
+   {
+    id: 4,
+    title: "Front-End Development",
+    desc: "Learn essential skills to build modern, responsive, and interactive websites. Master HTML, CSS, Tailwind, JavaScript, and React to create fast and professional web interfaces.",
+    image: frontend,
+    url: "/front-end",
+  },
+  {
+    id: 2,
+    title: "AWS Solutions Architect",
+    desc: "Build the skills needed to design and deploy cloud solutions on AWS. Learn Linux fundamentals, AWS core services, architecture best practices, scalability, security, and hands-on cloud implementation.",
+    image: aws,
+    url: "/solution-architect",
+  },
+  {
+  id: 3,
+  title: "Demand Planning",
+  desc: "Learn essential skills for a career in demand planning and supply chain forecasting. Master inventory analysis, demand forecasting models, Excel analytics, data interpretation, and real-world strategies for optimizing supply chain performance.",
+  image: demand,
+  url: "/demand-planner",
+}
 ];
 
 
@@ -354,4 +378,311 @@ export const TeamMembers = [
   //     "https://res.cloudinary.com/ds4h5p2np/image/upload/f_auto,q_auto/v1/adexbit/kolawole_george",
   //   location: "Nigeria",
   // },
+];
+
+
+export const shortCategories = [
+  
+  
+  {
+    id: 1,
+    title: "Front-End Development",
+    desc: "Learn essential skills to build modern, responsive, and interactive websites. Master HTML, CSS, Tailwind, JavaScript, and React to create fast and professional web interfaces.",
+    image: frontend,
+    url: "/front-end",
+  },
+  {
+    id: 2,
+    title: "AWS Solutions Architect",
+    desc: "Build the skills needed to design and deploy cloud solutions on AWS. Learn Linux fundamentals, AWS core services, architecture best practices, scalability, security, and hands-on cloud implementation.",
+    image: aws,
+    url: "/solution-architect",
+  },
+  {
+  id: 3,
+  title: "Demand Planning",
+  desc: "Learn essential skills for a career in demand planning and supply chain forecasting. Master inventory analysis, demand forecasting models, Excel analytics, data interpretation, and real-world strategies for optimizing supply chain performance.",
+  image: demand,
+  url: "/demand-planner",
+}
+];
+
+
+
+export const FrontendModules = [
+  {
+    title: "Month 1: HTML, CSS & JavaScript Basics",
+    submodules: [
+      {
+        name: "Module 1: HTML & CSS Foundations (Week 1–2)",
+        items: [
+          "Introduction to the Web & Browsers",
+          "HTML Elements, Attributes & Semantic Tags",
+          "Forms, Tables & Multimedia Integration",
+          "CSS Selectors, Specificity & Inheritance",
+          "Box Model, Flexbox & Grid",
+          "Responsive Design (Media Queries)",
+          "CSS Animations & Transitions",
+        ],
+      },
+      {
+        name: "Module 2: Core JavaScript (Week 3–4)",
+        items: [
+          "Variables, Data Types & Operators",
+          "Functions, Scope & Hoisting",
+          "Arrays, Objects & Loops",
+          "DOM Manipulation",
+          "Events & Event Listeners",
+          "Basic Fetch API",
+          "Debugging & Browser DevTools",
+        ],
+      },
+    ],
+  },
+
+  {
+    title: "Month 2: Advanced JavaScript & Tailwind CSS",
+    submodules: [
+      {
+        name: "Module 3: Advanced JavaScript (Week 5–6)",
+        items: [
+          "ES6+ Features (Let/Const, Arrow Functions, Spread)",
+          "Asynchronous JS (Promises, Async/Await)",
+          "JSON & API Integration",
+          "LocalStorage & SessionStorage",
+          "Functional Programming Concepts",
+          "Modules & Bundling Basics",
+          "Building Interactive JS Projects",
+        ],
+      },
+      {
+        name: "Module 4: Tailwind CSS (Week 7–8)",
+        items: [
+          "Tailwind Installation & Configuration",
+          "Utility-First Styling",
+          "Responsive Layouts & Dark Mode",
+          "Customizing Themes (tailwind.config.js)",
+          "Reusable UI Components",
+          "Animations & Transitions in Tailwind",
+          "Building a Complete Tailwind UI Page",
+        ],
+      },
+    ],
+  },
+
+  {
+    title: "Month 3: React & Figma",
+    submodules: [
+      {
+        name: "Module 5: React Fundamentals (Week 9–10)",
+        items: [
+          "What is React & JSX",
+          "Components, Props & State",
+          "Handling Events & Forms",
+          "Conditional Rendering & Lists",
+          "Hooks: useState & useEffect",
+          "React Project Setup (Vite/Create React App)",
+          "Mini Project: React Dashboard or Portfolio",
+        ],
+      },
+      {
+        name: "Module 6: Figma + Advanced React (Week 11–12)",
+        items: [
+          "Figma Interface & Tools",
+          "Creating Layouts & Components",
+          "Design Systems & Style Guides",
+          "Exporting Assets for Developers",
+          "React Router (Navigation)",
+          "Context API for State Management",
+          "Final Project: Design → Code Conversion",
+        ],
+      },
+    ],
+  },
+];
+
+
+export const AWSArchitectModules = [
+  {
+    title: "Month 1: Linux & AWS Core Foundations",
+    submodules: [
+      {
+        name: "Module 1: Linux for Cloud Engineers (Week 1–2)",
+        items: [
+          "Linux Architecture & File System",
+          "Essential Commands (ls, grep, chmod, tar, nano, vi)",
+          "Users, Groups & Permissions",
+          "Managing Processes & Services",
+          "Networking Basics (SSH, SCP)",
+          "Bash Scripting Essentials",
+          "Deploying Applications on Linux Servers",
+        ],
+      },
+      {
+        name: "Module 2: AWS Core Services (Week 3–4)",
+        items: [
+          "AWS Global Infrastructure",
+          "IAM: Users, Roles, Policies, MFA",
+          "Amazon EC2: Instances, AMIs, Key Pairs",
+          "VPC, Subnets, Routing & Security Groups",
+          "S3 Buckets, Versioning & Lifecycle Rules",
+          "RDS & DynamoDB Introduction",
+          "CloudWatch Metrics & Alarms",
+        ],
+      },
+    ],
+  },
+
+  {
+    title: "Month 2: Architecting on AWS",
+    submodules: [
+      {
+        name: "Module 3: Networking & Security (Week 5–6)",
+        items: [
+          "Advanced VPC Architecture",
+          "NAT Gateways, Internet Gateways & NACLs",
+          "Route 53: DNS, Routing Policies",
+          "KMS Encryption & Secrets Manager",
+          "Identity Federation (SSO & Cognito)",
+          "Shared Responsibility Model",
+          "Well-Architected Framework: Security Pillar",
+        ],
+      },
+      {
+        name: "Module 4: Compute, Storage & High Availability (Week 7–8)",
+        items: [
+          "Elastic Load Balancers (ALB, NLB)",
+          "Auto Scaling Groups & Scaling Policies",
+          "Elastic Beanstalk Basics",
+          "EFS vs EBS vs S3 Storage Options",
+          "Serverless Introduction (Lambda, API Gateway)",
+          "SQS, SNS & Event-Driven Patterns",
+          "Architecting Highly Available Systems",
+        ],
+      },
+    ],
+  },
+
+  {
+    title: "Month 3: Infrastructure as Code, Monitoring & Final Architecture",
+    submodules: [
+      {
+        name: "Module 5: Infrastructure as Code & Deployment (Week 9–10)",
+        items: [
+          "CloudFormation Templates (YAML/JSON)",
+          "Stacks, Parameters & Outputs",
+          "Building Reusable CloudFormation Modules",
+          "Deploying VPC + EC2 with CloudFormation",
+          "Intro to Terraform vs CloudFormation",
+          "CI/CD Integration Concepts",
+          "Automating Cloud Deployments",
+        ],
+      },
+      {
+        name: "Module 6: Monitoring, Cost Optimization & Exam Prep (Week 11–12)",
+        items: [
+          "CloudWatch Logs, Metrics & Alarms",
+          "AWS Config & Trusted Advisor",
+          "Cost Explorer & Budget Alarms",
+          "Architecting for Cost Optimization",
+          "Case Studies: Real World Architectures",
+          "Exam Domains & Study Strategy",
+          "Final Capstone: Build a Full AWS Architecture",
+        ],
+      },
+    ],
+  },
+];
+
+
+export const DemandPlannerModules = [
+  {
+    title: "Month 1: Supply Chain & Forecasting Foundations",
+    submodules: [
+      {
+        name: "Module 1: Supply Chain & Demand Planning Basics (Week 1–2)",
+        items: [
+          "Introduction to Supply Chain & Operations",
+          "Demand Planning vs Supply Planning",
+          "Roles of a Demand Planner",
+          "Types of Demand (Stable, Seasonal, Lumpy)",
+          "Qualitative Forecasting (Expert Opinion, Surveys)",
+          "Quantitative Forecasting (Time-Series Basics)",
+          "Forecast Accuracy Metrics (MAPE, ME, RMSE)",
+        ],
+      },
+      {
+        name: "Module 2: Data & Inventory Management (Week 3–4)",
+        items: [
+          "Introduction to Planning Data",
+          "Master Data Management (SKU, Customer, Location)",
+          "Inventory Types & Classifications",
+          "Safety Stock & Reorder Point Calculations",
+          "ABC Analysis & Product Segmentation",
+          "Lead Time Analysis",
+          "Managing and Cleaning Data for Forecasting",
+        ],
+      },
+    ],
+  },
+
+  {
+    title: "Month 2: Forecasting Techniques & Tools",
+    submodules: [
+      {
+        name: "Module 3: Forecasting Methods (Week 5–6)",
+        items: [
+          "Moving Average & Weighted Moving Average",
+          "Exponential Smoothing (SES, DES, TES)",
+          "Trend & Seasonality Analysis",
+          "Regression Forecasting",
+          "Causal Forecasting Techniques",
+          "Demand Sensing vs Demand Shaping",
+          "Evaluating & Improving Forecast Accuracy",
+        ],
+      },
+      {
+        name: "Module 4: Excel & Power BI for Demand Planning (Week 7–8)",
+        items: [
+          "Excel for Demand Forecasting",
+          "PivotTables, Lookup Functions, Dashboards",
+          "Scenario & What-If Analysis",
+          "Trendlines & Statistical Tools",
+          "Power BI Interface & Data Modeling",
+          "Building Demand Dashboards",
+          "Presenting Forecast Insights to Management",
+        ],
+      },
+    ],
+  },
+
+  {
+    title: "Month 3: S&OP, Optimization & Capstone",
+    submodules: [
+      {
+        name: "Module 5: Integrated Planning & Optimization (Week 9–10)",
+        items: [
+          "Sales & Operations Planning (S&OP)",
+          "Demand Review & Supply Review Process",
+          "Capacity Planning & Constraint Management",
+          "Inventory Optimization & Balancing Service Levels",
+          "Collaboration with Sales, Marketing & Finance",
+          "Risk Management in Demand Planning",
+          "KPIs: Forecast Accuracy, Fill Rate, Service Levels",
+        ],
+      },
+      {
+        name: "Module 6: Final Project & Practical Applications (Week 11–12)",
+        items: [
+          "Building a Complete Demand Forecast",
+          "Identifying Drivers of Demand",
+          "Creating an Executive Planning Dashboard",
+          "Scenario Planning & Sensitivity Analysis",
+          "Budgeting & Operational Forecasting",
+          "Final Capstone: End-to-End Demand Plan",
+          "Career Preparation (CV, Portfolio, Interviews)",
+        ],
+      },
+    ],
+  },
 ];
