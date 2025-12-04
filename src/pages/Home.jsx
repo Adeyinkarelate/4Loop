@@ -35,7 +35,7 @@ const Home = () => {
       <Navbar />
       <EducationBanner />
       {/* ====================== */}
-      <section className="mx-auto max-w-7xl py-20 text-center">
+      <section className="mx-auto max-w-7xl py-20 text-center ">
         <motion.h1
           initial={{ opacity: 0, y: 60 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -45,7 +45,7 @@ const Home = () => {
           Why Adexbit?
         </motion.h1>
 
-        <div className="flex flex-col md:flex-row gap-6 justify-center md:justify-start px-6">
+        <div className="flex flex-col md:flex-row gap-6 justify-center md:justify-start px-6 md:px-10">
           {/* Expert Instruction */}
           <div className="my-3">
             <div className="flex justify-center md:justify-start">

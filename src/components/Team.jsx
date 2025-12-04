@@ -11,8 +11,8 @@ const Team = () => {
 
       <div className="max-w-7xl container mx-auto py-10 my-10 px-4">
         <div className="mx-auto mb-12 max-w-2xl text-center lg:mb-14">
-          <h2 className="text-2xl font-semibold md:text-4xl font-out text-white">The Team</h2>
-          <p className="mt-1 text-gray-400">
+          <h2 className="text-center text-3xl font-semibold md:text-4xl font-mon text-blue-950">The Team</h2>
+          <p className="mt-1 text-md text-gray-600">
             Our team is made up of leading practitioners who bring current best
             practices and case studies to sessions that fit into your work
             schedule.
@@ -33,7 +33,7 @@ const Team = () => {
                 transition: { duration: 0.6, delay: 1 },
               }}
               key={index}
-              className="flex gap-x-4 gap-y-3 rounded-xl border border-gray-900 p-3 "
+              className="flex gap-x-4 gap-y-3 rounded-xl border border-gray-300 p-3 "
             >
               <img
                 className="h-38 w-38 rounded-lg object-cover object-top"
@@ -44,7 +44,7 @@ const Team = () => {
 
               <div className="flex h-full flex-col">
                 <div>
-                  <h3 className=" text-md font-out  font-semibold text-gray-400 dark:text-gray-200 md:text-lg">
+                  <h3 className=" text-md font-out  font-semibold text-gray-800 dark:text-blue md:text-lg">
                     {member.name}
                   </h3>
                   <p className="mt-1 text-xs  text-gray-500">

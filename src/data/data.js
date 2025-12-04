@@ -3,7 +3,7 @@ import dev from "../assets/images/dev.jpg";
 import data from "../assets/images/data-anaylsis.webp";
 import aws from "../assets/images/aws.jpg";
 import demand from "../assets/images/demand.jpg";
-import frontend from "../assets/images/frontend.jpg";
+import frontend from "../assets/images/html.webp";
 
 import mat from "../assets/images/mathew.jpeg"
 import emm from "../assets/images/Emmanuel.jpeg"
@@ -394,7 +394,7 @@ export const shortCategories = [
   {
     id: 2,
     title: "AWS Solutions Architect",
-    desc: "Build the skills needed to design and deploy cloud solutions on AWS. Learn Linux fundamentals, AWS core services, architecture best practices, scalability and security.",
+    desc: "Build the skills needed to design and deploy cloud solutions on AWS. Learn Linux fundamentals, AWS core services, architecture best practices, scalability,security and project for your portfolio",
     image: aws,
     url: "/solution-architect",
   },

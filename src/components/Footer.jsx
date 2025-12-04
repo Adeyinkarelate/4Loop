@@ -1,42 +1,70 @@
-import {
-  FaYoutube,
-  FaTwitter,
-  FaFacebook,
-  FaLinkedin,
-  FaInstagram,
-  FaTiktok,
-} from "react-icons/fa";
+import { Link } from "react-router-dom";
+import Logo from "../assets/images/logo.webp";
+import { IoLogoWhatsapp } from "react-icons/io";
 
-export default function Footer() {
+const Footer = () => {
   return (
-    <footer className="w-full bg-[#0d0d0f] text-gray-400 py-8 border-t border-gray-800 mt-10">
-      <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between px-6 gap-6">
-        {/* Left - Copyright */}
-        <p className="text-sm">© Adexbit Tech School</p>
+    <div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <footer className="bg-blue-900/30">
+        <div className="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:pt-20">
+          <div className="lg:flex lg:items-end lg:justify-between">
+            <div>
+              <div className="mb-10 flex justify-center lg:justify-start">
+                <a href="/">
+                  <img src={Logo} alt="Logo" className="h-12" />
+                </a>
+              </div>
 
-        {/* Center - Social Icons */}
-        <div className="flex items-center gap-6 text-xl">
-          {/* <FaYoutube className="hover:text-white transition" /> */}
-          {/* <FaTwitter className="hover:text-white transition" /> */}
-          <FaFacebook className="hover:text-white transition" />
-          {/* <FaLinkedin className="hover:text-white transition" />
-          <FaInstagram className="hover:text-white transition" /> */}
+              <p className="mx-auto mt-2 max-w-md text-center leading-relaxed text-gray-800 lg:text-left">
+                Explore your full potential with us and embark on a path to
+                knowledge, skills, and success. Join Adexbit today, and let's
+                learn and grow together.
+              </p>
+            </div>
 
-          <a target="_blank" href="https://tiktok.com/@adexbits">
-            <FaTiktok className="hover:text-white transition" />
-          </a>
+            <ul className="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:mt-0 lg:justify-end lg:gap-10">
+              <li>
+                <Link
+                  className="text-gray-800 transition hover:text-gray-800/75"
+                  to="/courses"
+                >
+                  Courses
+                </Link>
+              </li>
+
+              <li>
+                <a
+                  href="https://wa.me/2349063571320"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <IoLogoWhatsapp className="text-green-400 text-5xl" />
+                </a>
+              </li>
+
+              <li>
+                <Link
+                  className="text-gray-800 transition hover:text-gray-800/75"
+                  to="/contact"
+                >
+                  Contact
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          <p className="mt-5 text-center text-sm text-gray-600 lg:text-right">
+            Copyright &copy; {new Date().getFullYear()}. All rights reserved.
+          </p>
         </div>
-
-        {/* Right - Links */}
-        <div className="flex items-center gap-6 text-sm">
-          <a href="#" className="hover:text-white transition">
-            Terms of Use
-          </a>
-          <a href="#" className="hover:text-white transition">
-            Privacy Policy
-          </a>
-        </div>
-      </div>
-    </footer>
+      </footer>
+    </div>
   );
-}
+};
+
+export default Footer;
