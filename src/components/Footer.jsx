@@ -34,7 +34,7 @@ const Footer = () => {
 
               <li>
                 <a
-                  href="https://wa.me/2349063571320"
+                  href="https://wa.me/2349011664246"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

@@ -210,12 +210,12 @@ export default function Contact() {
                 <div className="bg-[#0f0f0f] rounded-2xl p-6 text-center border border-gray-800 shadow-lg hover:scale-110 transition flex flex-col items-center justify-center cursor-pointer">
                   <FaPhone className="text-5xl text-red-400" />
                   <h1 className="text-gray-300 mt-2 font-out font-bold text-3xl md:text-lg">
-                    09063571320
+                    09011664246
                   </h1>
                 </div>
 
                 <a
-                  href="https://wa.me/2349063571320"
+                  href="https://wa.me/2349011664246"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
