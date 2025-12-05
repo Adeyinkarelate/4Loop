@@ -45,7 +45,7 @@ const Navbar = () => {
                   <a>Data Analysis</a>
                 </li>
                 <li>
-                  <Link to="/java">Full Stack (Java)</Link>
+                  <Link to="/python">Full Stack (Python)</Link>
                 </li>
               </ul>
             </li>
@@ -75,18 +75,16 @@ const Navbar = () => {
                   <a>Data Analysis</a>
                 </li>
                 <li>
-                  <Link to="/java">Full Stack (Java)</Link>
+                  <Link to="/python">Full Stack (Python)</Link>
                 </li>
               </ul>
             </details>
           </li>
-          <li>
-            <a>Service</a>
-          </li>
+         
         </ul>
       </div>
       <div class="navbar-end">
-        <Link to="contact" class="btn bg-black text-white">Enroll</Link>
+        <Link to="contact" class="btn bg-blue-950 text-white">Enroll</Link>
       </div>
     </div>
   );

@@ -17,7 +17,7 @@ const CourseOutline = ({ modules = [] }) => {
       {modules.map((module, index) => (
         <div
           key={index}
-          className="bg-white/5 rounded-xl p-5 border border-white/10 shadow-md"
+          className="bg-gray-700 rounded-xl p-5 border border-white/10 shadow-md"
         >
           {/* Module Header */}
           <button

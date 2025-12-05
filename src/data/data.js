@@ -5,8 +5,8 @@ import aws from "../assets/images/aws.jpg";
 import demand from "../assets/images/demand.jpg";
 import frontend from "../assets/images/html.webp";
 
-import mat from "../assets/images/mathew.jpeg"
-import emm from "../assets/images/Emmanuel.jpeg"
+import mat from "../assets/images/mathew.jpeg";
+import emm from "../assets/images/Emmanuel.jpeg";
 
 export const springTestimonial = [
   {
@@ -32,146 +32,6 @@ export const springTestimonial = [
     title: "Microservices Consultant, DevStream Labs",
     testimonial:
       "I’ve worked with clients across finance, healthcare, and logistics — and in every case, Spring Boot proved to be the most reliable choice for building resilient systems. Its focus on convention over configuration saves developers from decision fatigue, while still allowing deep customization when needed. The ease of integrating with third-party services like Kafka, Redis, and Elasticsearch has made it a universal choice for enterprise-grade solutions. \n\nWhat really sets Spring Boot apart is how it encourages best practices. The structure it enforces naturally leads to cleaner code, modular design, and better testing discipline. Every project I’ve implemented with it has benefited from faster delivery cycles and fewer production issues. In a world full of frameworks promising speed, Spring Boot actually delivers stability, maturity, and scalability without compromise.",
-  },
-];
-
-export const JavaModules = [
-  // ------------------ MONTH 1 ------------------
-  {
-    title: "Month 1: HTML & CSS Fundamentals",
-    submodules: [
-      {
-        name: "Module 1: HTML Basics (Week 1–2)",
-        items: [
-          "Structure of an HTML Document",
-          "Semantic HTML Tags",
-          "Forms & Inputs",
-          "Media Elements (Images, Audio, Video)",
-        ],
-      },
-      {
-        name: "Module 2: CSS Fundamentals (Week 3–4)",
-        items: [
-          "Selectors & Specificity",
-          "Box Model",
-          "Flexbox & Grid",
-          "Responsive Design Principles",
-        ],
-      },
-    ],
-  },
-
-  // ------------------ MONTH 2 ------------------
-  {
-    title: "Month 2: Tailwind CSS & UI Design",
-    submodules: [
-      {
-        name: "Module 3: Tailwind CSS (Week 5–6)",
-        items: [
-          "Utility-First Workflow",
-          "Layout & Spacing",
-          "Typography",
-          "Custom Configurations",
-        ],
-      },
-      {
-        name: "Module 4: UI/UX Essentials (Week 7–8)",
-        items: [
-          "Component-Based Design",
-          "Design Systems",
-          "Building Reusable UI Components",
-          "Project: Landing Page UI",
-        ],
-      },
-    ],
-  },
-
-  // ------------------ MONTH 3 ------------------
-  {
-    title: "Month 3: JavaScript & React",
-    submodules: [
-      {
-        name: "Module 5: JavaScript Fundamentals (Week 9–10)",
-        items: [
-          "Variables, Functions & Scope",
-          "DOM Manipulation",
-          "Events",
-          "ES6+ Features",
-        ],
-      },
-      {
-        name: "Module 6: React Development (Week 11–12)",
-        items: [
-          "Components & Props",
-          "State & Effects",
-          "Routing",
-          "Project: React Multi-Page App",
-        ],
-      },
-    ],
-  },
-
-  // ------------------ MONTH 4 ------------------
-  {
-    title: "Month 4: Java Programming",
-    submodules: [
-      {
-        name: "Module 7: Core Java (Week 13–14)",
-        items: [
-          "Variables, Loops, Methods",
-          "OOP Concepts (Inheritance, Polymorphism)",
-          "Exception Handling",
-        ],
-      },
-      {
-        name: "Module 8: Java Advanced (Week 15–16)",
-        items: [
-          "Collections Framework",
-          "Java Streams",
-          "File Handling & Serialization",
-        ],
-      },
-    ],
-  },
-
-  // ------------------ MONTH 5 ------------------
-  {
-    title: "Month 5: Databases (MongoDB) & Backend Foundations",
-    submodules: [
-      {
-        name: "Module 9: MongoDB (Week 17–18)",
-        items: [
-          "CRUD Operations",
-          "Schema Design",
-          "Aggregation Pipeline",
-          "Project: NoSQL Database Design",
-        ],
-      },
-    ],
-  },
-
-  // ------------------ MONTH 6 ------------------
-  {
-    title: "Month 6: Spring Boot Backend Development",
-    submodules: [
-      {
-        name: "Module 10: Spring Boot Basics (Week 19–20)",
-        items: [
-          "Spring Boot Basics",
-          "Dependency Injection",
-          "Controllers & Services",
-        ],
-      },
-      {
-        name: "Module 11: Spring Boot Advanced (Week 21–24)",
-        items: [
-          "Spring Data JPA",
-          "REST APIs",
-          "Security & JWT",
-          "Final Project: Full Stack Application",
-        ],
-      },
-    ],
   },
 ];
 
@@ -292,11 +152,12 @@ export const DevOpsModules = [
 export const courseCategories = [
   {
     id: 1,
-    title: "Full Stack Java",
-    desc: "Essential skills for anyone pursuing a career as a full-stack Java developer. Learn Java fundamentals, object-oriented programming, Spring Boot, APIs, databases, and real-world application development.",
+    title: "Python Full Stack Development",
+    desc: "A complete full-stack journey for anyone looking to build modern web applications using Python. Master HTML, CSS, JavaScript, Tailwind, React, Python, SQL, Django, and Django REST Framework while building real-world, production-ready projects.",
     image: java,
-    url: "/java",
+    url: "/python",
   },
+
   {
     id: 2,
     title: "DevOps",
@@ -307,11 +168,11 @@ export const courseCategories = [
   {
     id: 3,
     title: "Data Analysis",
-    desc: "Essential skills for anyone pursuing a career as a professional data analyst. Learn Excel fundamentals, SQL for data querying, Python for analysis, data visualization with Power BI, and real-world techniques for turning raw data .",
+    desc: "Master essential skills for launching a successful career in data analysis. Learn Excel, SQL, Power BI, data cleaning, visualization, analytics workflows, and how to interpret data for real business decisions.",
     image: data,
-    url: "",
+    url: "/data-analysis",
   },
-   {
+  {
     id: 4,
     title: "Front-End Development",
     desc: "Learn essential skills to build modern, responsive, and interactive websites. Master HTML, CSS, Tailwind, JavaScript, and React to create fast and professional web interfaces.",
@@ -326,14 +187,13 @@ export const courseCategories = [
     url: "/solution-architect",
   },
   {
-  id: 3,
-  title: "Demand Planning",
-  desc: "Learn essential skills for a career in demand planning and supply chain forecasting. Master inventory analysis, demand forecasting models, Excel analytics, data interpretation, and real-world strategies for optimizing supply chain performance.",
-  image: demand,
-  url: "/demand-planner",
-}
+    id: 3,
+    title: "Demand Planning",
+    desc: "Learn essential skills for a career in demand planning and supply chain forecasting. Master inventory analysis, demand forecasting models, Excel analytics, data interpretation, and real-world strategies for optimizing supply chain performance.",
+    image: demand,
+    url: "/demand-planner",
+  },
 ];
-
 
 export const TeamMembers = [
   {
@@ -341,7 +201,7 @@ export const TeamMembers = [
     position: "Bsc Physic (O.O.U Ago Iwoye)",
     cert: "MIT (University of Lagos)",
     linkedInURL: "https://www.linkedin.com/in/muritala-muyideen/",
-    image:dev,
+    image: dev,
     location: "Nigeria",
   },
   {
@@ -349,16 +209,16 @@ export const TeamMembers = [
     position: "Bsc Physic (University of Ibadan)",
     cert: "Microsoft Certified Data-Analysis",
     linkedInURL: "https://www.linkedin.com/in/emmanuel-oladejo-olatunde/",
-    image:emm,
+    image: emm,
     location: "Nigeria",
   },
-  
+
   {
     name: "Adelowo Mathew Oluwaseun",
     position: "Bsc In Education (University of Ilorin)",
     cert: " AWS Certified Cloud Practitioner",
     linkedInURL: "",
-    image:mat,    
+    image: mat,
     location: "Nigeria",
   },
   // {
@@ -369,7 +229,7 @@ export const TeamMembers = [
   //     "https://res.cloudinary.com/ds4h5p2np/image/upload/f_auto,q_auto/v1/adexbit/israel_akinoso",
   //   location: "London, UK",
   // },
-  
+
   // {
   //   name: "George Kolawole",
   //   position: "Forex",
@@ -380,10 +240,7 @@ export const TeamMembers = [
   // },
 ];
 
-
 export const shortCategories = [
-  
-  
   {
     id: 1,
     title: "Front-End Development",
@@ -399,15 +256,183 @@ export const shortCategories = [
     url: "/solution-architect",
   },
   {
-  id: 3,
-  title: "Demand Planning",
-  desc: "Learn essential skills for a career in demand planning and supply chain forecasting. Master inventory analysis, demand forecasting models, Excel analytics and data interpretation. ",
-  image: data,
-  url: "/demand-planner",
-}
+    id: 3,
+    title: "Demand Planning",
+    desc: "Learn essential skills for a career in demand planning and supply chain forecasting. Master inventory analysis, demand forecasting models, Excel analytics and data interpretation. ",
+    image: data,
+    url: "/demand-planner",
+  },
 ];
 
+export const PythonFullStackModules = [
+  {
+    title: "Month 1: Web Foundations & JavaScript Basics",
+    submodules: [
+      {
+        name: "Module 1: HTML & CSS Fundamentals (Week 1–2)",
+        items: [
+          "How the web works: HTTP, browsers & devtools",
+          "HTML semantics, document structure, forms and accessibility (ARIA)",
+          "CSS fundamentals: selectors, box model, specificity",
+          "Layout techniques: Flexbox & CSS Grid",
+          "Responsive design & media queries",
+          "Best practices for semantic, SEO-friendly markup",
+        ],
+      },
+      {
+        name: "Module 2: JavaScript Essentials (Week 3–4)",
+        items: [
+          "JavaScript syntax, types, operators and control flow",
+          "Functions, scope, closures and hoisting",
+          "Arrays, objects and built-in methods",
+          "DOM manipulation, events and event delegation",
+          "Debugging with browser devtools",
+          "Working with the Fetch API and promises",
+        ],
+      },
+    ],
+  },
 
+  {
+    title: "Month 2: Modern JavaScript & Utility-First Styling",
+    submodules: [
+      {
+        name: "Module 3: Modern ES6+ JavaScript (Week 5–6)",
+        items: [
+          "ES6+ syntax: let/const, arrow functions, template literals",
+          "Modules, imports/exports and bundlers (Vite/Parcel/Rollup)",
+          "Async/await, error handling and advanced promises",
+          "Higher-order functions and functional patterns",
+          "Local storage, session storage and web APIs",
+          "Build small interactive JS projects",
+        ],
+      },
+      {
+        name: "Module 4: Tailwind CSS & Component Styling (Week 7–8)",
+        items: [
+          "Tailwind setup and configuration (PostCSS / CLI)",
+          "Utility-first approach and common utility classes",
+          "Responsive design, dark mode and theming in Tailwind",
+          "Building reusable UI components with Tailwind",
+          "Customizing tailwind.config and creating design systems",
+          "Integrating Tailwind with frameworks and projects",
+        ],
+      },
+    ],
+  },
+
+  {
+    title: "Month 3: React Fundamentals & Advanced Patterns",
+    submodules: [
+      {
+        name: "Module 5: React Basics (Week 9–10)",
+        items: [
+          "What is React and JSX syntax",
+          "Functional components, props and composition",
+          "State with useState and basic side-effects with useEffect",
+          "Handling events, forms and controlled components",
+          "Lists, keys and conditional rendering",
+          "Create a mini React app (to-do, dashboard, or portfolio)",
+        ],
+      },
+      {
+        name: "Module 6: Advanced React (Week 11–12)",
+        items: [
+          "Routing with React Router",
+          "Context API and state sharing patterns",
+          "Custom hooks and code reusability",
+          "Performance: memo, useMemo, useCallback, lazy loading",
+          "Testing basics for React components (Jest + React Testing Library)",
+          "Integrating third-party libraries & building component libraries",
+        ],
+      },
+    ],
+  },
+
+  {
+    title: "Month 4: Python Programming & Databases",
+    submodules: [
+      {
+        name: "Module 7: Python Fundamentals (Week 13–14)",
+        items: [
+          "Python syntax, data types and control structures",
+          "Functions, modules, packages and virtual environments",
+          "Object-oriented programming: classes and inheritance",
+          "File I/O, exceptions and logging",
+          "Working with CSV, JSON and other data formats",
+          "Writing reusable, testable Python code",
+        ],
+      },
+      {
+        name: "Module 8: Databases & SQL (Week 15–16)",
+        items: [
+          "Relational databases concepts: tables, keys and normalization",
+          "SQL fundamentals: SELECT, JOINs, GROUP BY, window functions",
+          "Designing schemas and indexing for performance",
+          "Using PostgreSQL and/or MySQL: setup & clients",
+          "ORM basics (SQLAlchemy / Django ORM) and migrations",
+          "Data modeling for web applications",
+        ],
+      },
+    ],
+  },
+
+  {
+    title: "Month 5: Django Core & Django REST Framework",
+    submodules: [
+      {
+        name: "Module 9: Django Web Development (Week 17–18)",
+        items: [
+          "Django project/app structure and conventions",
+          "Models, migrations and Django ORM deep dive",
+          "Templates, context and server-side rendering",
+          "Forms, validation and authentication with Django auth",
+          "Admin site customization and management commands",
+          "Building a CRUD web application with Django",
+        ],
+      },
+      {
+        name: "Module 10: Django REST Framework (Week 19–20)",
+        items: [
+          "REST API fundamentals and API design principles",
+          "DRF serializers, viewsets and routers",
+          "Authentication & authorization (JWT, token, session)",
+          "Filtering, pagination and versioning APIs",
+          "Throttling, rate-limiting and API documentation (Swagger / Redoc)",
+          "Building an end-to-end API and connecting it to a frontend",
+        ],
+      },
+    ],
+  },
+
+  {
+    title: "Month 6: Deployment, DevOps, Testing & Capstone",
+    submodules: [
+      {
+        name: "Module 11: DevOps & Deployment (Week 21–22)",
+        items: [
+          "Version control workflows with Git & GitHub",
+          "Containerization with Docker and Docker Compose",
+          "Serving Python apps with Gunicorn + Nginx",
+          "CI/CD basics: GitHub Actions or similar pipelines",
+          "Deploying to cloud platforms (Heroku, Render, or VPS)",
+          "Monitoring, logging and basic security hardening",
+        ],
+      },
+      {
+        name: "Module 12: Testing, Optimization & Capstone (Week 23–24)",
+        items: [
+          "Unit testing & integration testing in Python (pytest)",
+          "API testing and end-to-end testing for full-stack apps",
+          "Performance tuning: caching (Redis), query optimization",
+          "Security best practices: input validation, CSRF, XSS, CORS",
+          "Final capstone: design, build and deploy a complete full-stack app",
+          "Portfolio, interview prep, and next steps for job readiness",
+        ],
+      },
+    ],
+  },
+];
 
 export const FrontendModules = [
   {
@@ -501,7 +526,6 @@ export const FrontendModules = [
   },
 ];
 
-
 export const AWSArchitectModules = [
   {
     title: "Month 1: Linux & AWS Core Foundations",
@@ -594,7 +618,6 @@ export const AWSArchitectModules = [
   },
 ];
 
-
 export const DemandPlannerModules = [
   {
     title: "Month 1: Supply Chain & Forecasting Foundations",
@@ -681,6 +704,176 @@ export const DemandPlannerModules = [
           "Budgeting & Operational Forecasting",
           "Final Capstone: End-to-End Demand Plan",
           "Career Preparation (CV, Portfolio, Interviews)",
+        ],
+      },
+    ],
+  },
+];
+
+export const DataAnalysisModules = [
+  {
+    title: "Month 1: Excel Foundations & Data Literacy",
+    submodules: [
+      {
+        name: "Module 1: Excel Basics & Data Foundations (Week 1–2)",
+        items: [
+          "Understanding data types, structures & analytics mindset",
+          "Excel interface, formulas, formatting & shortcuts",
+          "Functions: SUM, AVERAGE, COUNT, IF, nested logic",
+          "Data cleaning: remove duplicates, text functions, error fixes",
+          "Sorting, filtering & conditional formatting",
+          "Beginner dashboards & basic chart creation",
+        ],
+      },
+      {
+        name: "Module 2: Advanced Excel for Analysts (Week 3–4)",
+        items: [
+          "Advanced functions: VLOOKUP, XLOOKUP, INDEX/MATCH",
+          "PivotTables & PivotCharts for deep insights",
+          "What-if analysis, scenario manager & forecasting tools",
+          "Data validation & building dynamic models",
+          "Excel automation with macros (intro to VBA)",
+          "Building a complete Excel reporting system",
+        ],
+      },
+    ],
+  },
+
+  {
+    title: "Month 2: SQL for Data Analysis",
+    submodules: [
+      {
+        name: "Module 3: SQL Fundamentals (Week 5–6)",
+        items: [
+          "Understanding relational databases & ERD diagrams",
+          "Basic SQL: SELECT, WHERE, ORDER BY, LIMIT",
+          "Joins: INNER, LEFT, RIGHT, FULL",
+          "Aggregations: SUM, COUNT, AVG, GROUP BY, HAVING",
+          "Data cleaning & filtering with SQL",
+          "Practical SQL analysis challenges",
+        ],
+      },
+      {
+        name: "Module 4: Intermediate & Advanced SQL (Week 7–8)",
+        items: [
+          "Window functions: RANK, ROW_NUMBER, OVER()",
+          "Subqueries & CTEs (WITH statements)",
+          "Views, indexes & performance optimization",
+          "Building analytical datasets with SQL",
+          "Data modeling best practices for analysts",
+          "Real-world SQL case studies",
+        ],
+      },
+    ],
+  },
+
+  {
+    title: "Month 3: Power BI for Business Intelligence",
+    submodules: [
+      {
+        name: "Module 5: Power BI Essentials (Week 9–10)",
+        items: [
+          "Power BI interface, workspace & datasets",
+          "Data import, shaping & Power Query transformations",
+          "Building effective data models",
+          "Creating visualizations & dashboards",
+          "Business KPIs and storytelling with data",
+          "Designing a complete mini dashboard",
+        ],
+      },
+      {
+        name: "Module 6: Advanced Power BI & DAX (Week 11–12)",
+        items: [
+          "DAX fundamentals: measures & calculated columns",
+          "Time intelligence functions (YTD, MTD, QoQ)",
+          "Row-level security & permissions",
+          "Optimizing Power BI models performance",
+          "Publishing & scheduling automated reports",
+          "Build a full business analytics dashboard",
+        ],
+      },
+    ],
+  },
+
+  {
+    title: "Month 4: Python for Data Analysis",
+    submodules: [
+      {
+        name: "Module 7: Python Essentials (Week 13–14)",
+        items: [
+          "Python syntax, data types & OOP basics",
+          "Loops, functions, modules & virtual environments",
+          "Working with files: CSV, JSON & Excel",
+          "Error handling, debugging & best coding practices",
+          "Numpy fundamentals for numerical computing",
+          "Build an analysis script with Python",
+        ],
+      },
+      {
+        name: "Module 8: Data Analysis with Pandas (Week 15–16)",
+        items: [
+          "DataFrames, series & indexing",
+          "Data cleaning: handling missing values, duplicates & outliers",
+          "Grouping, merging & joining datasets",
+          "Statistical analysis with Python",
+          "Working with Matplotlib for visualizations",
+          "Mini project using Pandas + Matplotlib",
+        ],
+      },
+    ],
+  },
+
+  {
+    title: "Month 5: Business Analytics, Statistics & Forecasting",
+    submodules: [
+      {
+        name: "Module 9: Business Statistics (Week 17–18)",
+        items: [
+          "Descriptive & inferential statistics",
+          "Probability, distributions & hypothesis testing",
+          "Correlation vs causation, regression basics",
+          "A/B testing & experimental design",
+          "Business case studies for data decisions",
+          "Hands-on statistical modeling exercises",
+        ],
+      },
+      {
+        name: "Module 10: Forecasting & Real-World Analytics (Week 19–20)",
+        items: [
+          "Time series analysis fundamentals",
+          "Moving averages, smoothing & trend modeling",
+          "Demand forecasting basics",
+          "Predictive modeling with Python",
+          "Analytics solutions for sales, finance & operations",
+          "Project: Forecasting model for real business data",
+        ],
+      },
+    ],
+  },
+
+  {
+    title: "Month 6: Capstone, Portfolio & Job Readiness",
+    submodules: [
+      {
+        name: "Module 11: Capstone Development (Week 21–22)",
+        items: [
+          "Select a real dataset (finance, HR, marketing, operations)",
+          "Define business problem & KPIs",
+          "Apply SQL, Excel, Python & Power BI",
+          "Build dashboards + insights report",
+          "Prepare executive summary & presentation",
+          "Peer code review and improvement",
+        ],
+      },
+      {
+        name: "Module 12: Career Readiness (Week 23–24)",
+        items: [
+          "Building a top-tier analytics portfolio",
+          "Resume & LinkedIn optimization for data roles",
+          "Technical interview prep for SQL, BI & analytics",
+          "Mock interviews & analytics case studies",
+          "How to get freelance and remote analytics jobs",
+          "Final presentation & certification",
         ],
       },
     ],

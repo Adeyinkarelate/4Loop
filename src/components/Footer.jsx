@@ -5,18 +5,13 @@ import { IoLogoWhatsapp } from "react-icons/io";
 const Footer = () => {
   return (
     <div>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <footer className="bg-blue-900/30">
+      <footer className="bg-[#c5d2e5]">
         <div className="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:pt-20">
           <div className="lg:flex lg:items-end lg:justify-between">
             <div>
               <div className="mb-10 flex justify-center lg:justify-start">
                 <a href="/">
-                  <img src={Logo} alt="Logo" className="h-12" />
+                  <img src={Logo} alt="Logo" className="h-12 " />
                 </a>
               </div>
 

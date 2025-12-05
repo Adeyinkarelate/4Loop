@@ -8,7 +8,7 @@ export default function CourseCategorySection() {
   return (
     <>
     <Navbar/>
-      <section className="bg-zinc-900 py-16 flex flex-col gap-4 justify-center items-center my-20">
+      <section className="bg-white py-16 flex flex-col gap-4 justify-center items-center mt-20">
         <div className="flex justify-center max-w-2xl px-4">
           <motion.h2
             initial={{
@@ -21,7 +21,7 @@ export default function CourseCategorySection() {
               y: 0,
               transition: { duration: 0.9, delay: 0.2 },
             }}
-            className=" font-out text-center text-3xl md:text-4xl font-semibold mb-12 bg-linear-to-r from-purple-800 to-purple-300 bg-transparent bg-clip-text text-transparent"
+            className=" font-mon text-center text-3xl md:text-4xl font-semibold mb-12 text-[30px]  md:text-[45px] text-gray-900"
           >
             Follow a proven path to build real coding skills and land your dream
             job.
