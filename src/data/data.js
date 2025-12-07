@@ -215,7 +215,7 @@ export const TeamMembers = [
 
   {
     name: "Adelowo Mathew Oluwaseun",
-    position: "Bsc In Education (University of Ilorin)",
+    position: "B.Ed In Education (University of Ilorin)",
     cert: " AWS Certified Cloud Practitioner",
     linkedInURL: "",
     image: mat,

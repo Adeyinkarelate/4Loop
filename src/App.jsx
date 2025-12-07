@@ -6,28 +6,34 @@ import Contact from "./pages/Contact";
 import Frontend from "./pages/Frontend";
 import AwsSolutionArchitect from "./pages/AwsSolutionArchitect";
 import DemandPlanner from "./pages/DemandPlanner";
-import CourseCategorySection from "./pages/CourseCategorySection"; 
+import CourseCategorySection from "./pages/CourseCategorySection";
 import BackToTop from "./components/BackToTop/BackToTop";
 import PythonFullStack from "./pages/PythonFullStack";
-import DataAnalysisDemandPlanning from "./pages/DataAnalysisDemandPlanning"
+import DataAnalysisDemandPlanning from "./pages/DataAnalysisDemandPlanning";
 
 const App = () => {
   return (
     <main>
-      <BackToTop/>
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/python" element={<PythonFullStack/>}/>
-        <Route path="/dev" element={<DevOPs/>}/>
-        <Route path="/contact" element={<Contact/>}/>
-        <Route path="/demand-planner" element={<DemandPlanner/>}/>
-        <Route path="/solution-architect" element={<Frontend/>}/>
-        <Route path="/front-end" element={<AwsSolutionArchitect/>}/>
-        <Route path="/courses" element={<CourseCategorySection/>}/>
-        <Route path="/data-analysis" element={<DataAnalysisDemandPlanning/>}/>
-      </Routes>
-    </BrowserRouter>
+      <BackToTop />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/python" element={<PythonFullStack />} />
+          <Route path="/dev" element={<DevOPs />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/demand-planner" element={<DemandPlanner />} />
+          <Route
+            path="/solution-architect"
+            element={<AwsSolutionArchitect />}
+          />
+          <Route path="/front-end" element={<Frontend />} />
+          <Route path="/courses" element={<CourseCategorySection />} />
+          <Route
+            path="/data-analysis"
+            element={<DataAnalysisDemandPlanning />}
+          />
+        </Routes>
+      </BrowserRouter>
     </main>
   );
 };
