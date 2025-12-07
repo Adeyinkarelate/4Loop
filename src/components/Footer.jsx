@@ -11,7 +11,7 @@ const Footer = () => {
             <div>
               <div className="mb-10 flex justify-center lg:justify-start">
                 <a href="/">
-                  <img src={Logo} alt="Logo" className="h-12 " />
+                  <img src={Logo} alt="Logo" className="h-12 md:h-14 w-full " />
                 </a>
               </div>
 
