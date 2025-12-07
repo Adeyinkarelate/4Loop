@@ -180,19 +180,19 @@ export const courseCategories = [
     url: "/front-end",
   },
   {
-    id: 2,
+    id: 5,
     title: "AWS Solutions Architect",
     desc: "Build the skills needed to design and deploy cloud solutions on AWS. Learn Linux fundamentals, AWS core services, architecture best practices, scalability, security, and hands-on cloud implementation.",
     image: aws,
     url: "/solution-architect",
   },
-  {
-    id: 3,
-    title: "Demand Planning",
-    desc: "Learn essential skills for a career in demand planning and supply chain forecasting. Master inventory analysis, demand forecasting models, Excel analytics, data interpretation, and real-world strategies for optimizing supply chain performance.",
-    image: demand,
-    url: "/demand-planner",
-  },
+  // {
+  //   id: 3,
+  //   title: "Demand Planning",
+  //   desc: "Learn essential skills for a career in demand planning and supply chain forecasting. Master inventory analysis, demand forecasting models, Excel analytics, data interpretation, and real-world strategies for optimizing supply chain performance.",
+  //   image: demand,
+  //   url: "/demand-planner",
+  // },
 ];
 
 export const TeamMembers = [
@@ -255,13 +255,13 @@ export const shortCategories = [
     image: aws,
     url: "/solution-architect",
   },
-  {
-    id: 3,
-    title: "Demand Planning",
-    desc: "Learn essential skills for a career in demand planning and supply chain forecasting. Master inventory analysis, demand forecasting models, Excel analytics and data interpretation. ",
-    image: data,
-    url: "/demand-planner",
-  },
+  // {
+  //   id: 3,
+  //   title: "Demand Planning",
+  //   desc: "Learn essential skills for a career in demand planning and supply chain forecasting. Master inventory analysis, demand forecasting models, Excel analytics and data interpretation. ",
+  //   image: data,
+  //   url: "/demand-planner",
+  // },
 ];
 
 export const PythonFullStackModules = [

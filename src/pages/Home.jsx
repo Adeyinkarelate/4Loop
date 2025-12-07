@@ -66,7 +66,7 @@ const Home = () => {
 
             <div className="mt-5">
               <h3 className="text-xl font-semibold text-gray-800">
-                Expert Instruction
+                Expert Instructors
               </h3>
               <p className="mt-1 text-md text-gray-600">
                 Learn directly from industry professionals with real-world
@@ -132,8 +132,7 @@ const Home = () => {
                 Recognized Certification
               </h3>
               <p className="mt-1 text-md text-gray-600">
-                Earn a professional certificate that validates your skills and
-                boosts your chances of securing global job opportunities.
+                We help students ace professional certificate exams with the right tools, expert guidance, and a supportive environment. 
               </p>
             </div>
           </div>
