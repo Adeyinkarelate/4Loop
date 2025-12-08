@@ -1,5 +1,5 @@
 import java from "../assets/images/java.jpg";
-import dev from "../assets/images/dev.jpg";
+import dev from "../assets/images/devops.jpeg";
 import data from "../assets/images/data-anaylsis.webp";
 import aws from "../assets/images/aws.jpg";
 import demand from "../assets/images/demand.jpg";
@@ -221,14 +221,14 @@ export const TeamMembers = [
     image: mat,
     location: "Nigeria",
   },
-  // {
-  //   name: "Israel Akinoso",
-  //   position: "Bsc Information Tech (Middlesex University)",
-  //   linkedInURL: "https://www.linkedin.com/in/israel-akinoso/",
-  //   image:
-  //     "https://res.cloudinary.com/ds4h5p2np/image/upload/f_auto,q_auto/v1/adexbit/israel_akinoso",
-  //   location: "London, UK",
-  // },
+  {
+    name: "Israel Akinoso",
+    position: "Bsc Information Tech (Middlesex University)",
+    linkedInURL: "https://www.linkedin.com/in/israel-akinoso/",
+    image:
+      "https://res.cloudinary.com/ds4h5p2np/image/upload/f_auto,q_auto/v1/adexbit/israel_akinoso",
+    location: "London, UK",
+  },
 
   // {
   //   name: "George Kolawole",
@@ -244,14 +244,14 @@ export const shortCategories = [
   {
     id: 1,
     title: "Front-End Development",
-    desc: "Learn essential skills to build modern, responsive, and interactive websites. Master HTML, CSS, Tailwind, JavaScript, and React to create fast and professional web interfaces.",
+    desc: "Learn essential skills to build modern, responsive, and interactive websites. Master HTML, CSS, Tailwind, JavaScript, and React to create fast and professional web interfaces...",
     image: frontend,
     url: "/front-end",
   },
   {
     id: 2,
     title: "AWS Solutions Architect",
-    desc: "Build the skills needed to design and deploy cloud solutions on AWS. Learn Linux fundamentals, AWS core services, architecture best practices, scalability,security and project for your portfolio",
+    desc: "Build the skills needed to design and deploy cloud solutions on AWS. Learn Linux fundamentals, AWS core services, architecture best practices, scalability,security and project for your portfolio...",
     image: aws,
     url: "/solution-architect",
   },
@@ -262,6 +262,14 @@ export const shortCategories = [
   //   image: data,
   //   url: "/demand-planner",
   // },
+
+   {
+    id: 3,
+    title: "DevOps",
+    desc: "Essential skills for anyone pursuing a career as a professional DevOps engineer. Learn Linux fundamentals, cloud infrastructure with AWS, Terraform for IaC, CI/CD pipelines, Docker, and Kubernetes...",
+    image: dev,
+    url: "/dev",
+  },
 ];
 
 export const PythonFullStackModules = [

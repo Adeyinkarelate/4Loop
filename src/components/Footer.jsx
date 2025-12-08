@@ -5,7 +5,7 @@ import { IoLogoWhatsapp } from "react-icons/io";
 const Footer = () => {
   return (
     <div>
-      <footer className="bg-[#c5d2e5]">
+      <footer className="bg-blue-950">
         <div className="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:pt-20">
           <div className="lg:flex lg:items-end lg:justify-between">
             <div>
@@ -15,7 +15,7 @@ const Footer = () => {
                 </a>
               </div>
 
-              <p className="mx-auto mt-2 max-w-md text-center leading-relaxed text-gray-800 lg:text-left">
+              <p className="mx-auto mt-2 max-w-md text-center leading-relaxed text-gray-300 lg:text-left">
                 Explore your full potential with us and embark on a path to
                 knowledge, skills, and success. Join Adexbit today, and let's
                 learn and grow together.
@@ -25,7 +25,7 @@ const Footer = () => {
             <ul className="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:mt-0 lg:justify-end lg:gap-10">
               <li>
                 <Link
-                  className="text-gray-800 transition hover:text-gray-800/75"
+                  className="text-gray-300 transition hover:text-gray-800/75"
                   to="/courses"
                 >
                   Courses
@@ -44,7 +44,7 @@ const Footer = () => {
 
               <li>
                 <Link
-                  className="text-gray-800 transition hover:text-gray-800/75"
+                  className="text-gray-300 transition hover:text-gray-800/75"
                   to="/contact"
                 >
                   Contact
@@ -53,7 +53,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <p className="mt-5 text-center text-sm text-gray-600 lg:text-right">
+          <p className="mt-5 text-center text-sm text-gray-300 lg:text-right">
             Copyright &copy; {new Date().getFullYear()}. All rights reserved.
           </p>
         </div>

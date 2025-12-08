@@ -51,27 +51,27 @@ export default function Contact() {
   return (
     <div className="bg-white">
       <Helmet>
-        <title>Contact Us| Adexbit's Tech Fusion Hub</title>
-        <meta name="title" content="Contact Us| Adexbit's Tech Fusion Hub" />
+        <title>Contact Us| Adexbit's Edutech Academy</title>
+        <meta name="title" content="Contact Us| Adexbit's Edutech Academy" />
         <meta
           name="description"
-          content=" Adexbit's Tech Fusion Hub is an online tech school where you get to learn new skills in a wide variety of inspiring, interactive workshops. As a student you get to learn web development, data analytics and forex."
+          content=" Adexbit's Edutech Academy is an online tech school where you get to learn new skills in a wide variety of inspiring, interactive workshops. As a student you get to learn web development, data analytics and forex."
         />
 
         <meta
           name="og:title"
-          content="Contact Us | Adexbit's Tech Fusion Hub"
+          content="Contact Us | Adexbit's Edutech Academy"
         />
         <meta
           name="og:description"
-          content="Adexbit's Tech Fusion Hub is an online tech school where you get to learn new skills in a wide variety of inspiring, interactive workshops. As a student you get to learn web development, data analytics and forex."
+          content="Adexbit's Edutech Academy is an online tech school where you get to learn new skills in a wide variety of inspiring, interactive workshops. As a student you get to learn web development, data analytics and forex."
         />
         <meta name="og:type" content="website" />
-        <meta name="og:url" content="" />
+        <meta name="og:url" content="https://adexbitedutech.com/contact" />
 
         <meta
           name="keywords"
-          content="Home page, Adexbit, Tech, Fusion Hub, Adexbit's,DevOp,Cloud Engineering, Learn Data Analytics, Learn Data science, Learn web development in Nigeria, Become a software engineer, frontend development, backend development, Learn HTML, Learn CSS, Learn JavaScript, Learn Python, Learn SQL,"
+          content="Home page, Adexbit, Tech, Academy, Adexbit's,DevOp,Cloud Engineering, Learn Data Analytics, Learn Data science, Learn web development in Nigeria, Become a software engineer, frontend development, backend development, Learn HTML, Learn CSS, Learn JavaScript, Learn Python, Learn SQL,"
         ></meta>
       </Helmet>
       <Navbar />

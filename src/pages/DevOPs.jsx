@@ -15,10 +15,38 @@ import CouseDesc from "../components/CouseDesc";
 import CourseOutline from "../components/CourseOutline";
 import { DevOpsModules } from "../data/data";
 import Footer from "../components/Footer";
+import { Helmet } from "react-helmet";
 
 const DevOPs = () => {
   return (
     <>
+      <Helmet>
+        <title>DevOps| Adexbit's Edutech Academy</title>
+        <meta name="title" content="DevOps| Adexbit's Edutech Academy" />
+        <meta
+          name="description"
+          content=" Adexbit's Edutech Academy is an online tech school where you get to learn new skills in a wide variety of inspiring, interactive workshops. As a student you get to learn web development, data analytics and forex."
+        />
+
+        <meta
+          name="og:title"
+          content="DevOps | Adexbit's Edutech Academy"
+        />
+        <meta
+          name="og:description"
+          content="Adexbit's Edutech Academy is an online tech school where you get to learn new skills in a wide variety of inspiring, interactive workshops. As a student you get to learn web development, data analytics and forex."
+        />
+        <meta name="og:type" content="website" />
+        <meta
+          name="og:url"
+          content="https://adexbitedutech.com/dev"
+        />
+
+        <meta
+          name="keywords"
+          content="Home page, Adexbit, Tech, Academy, Adexbit's,DevOp,Cloud Engineering, Learn Data Analytics, Learn Data science, Learn web development in Nigeria, Become a software engineer, frontend development, backend development, Learn HTML, Learn CSS, Learn JavaScript, Learn Python, Learn SQL,"
+        ></meta>
+      </Helmet>
       <Navbar />
       <CouseDesc
         title="DevOps Mastery: Build Real-World Cloud & Automation Skills"
@@ -238,9 +266,8 @@ const DevOPs = () => {
         </div>
 
         {/* ========================== */}
-        
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 };

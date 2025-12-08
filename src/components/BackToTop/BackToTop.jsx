@@ -30,7 +30,7 @@ const BackToTop = () => {
       } `}
     >
       <button
-        className="inline-block rounded-full bg-blue-950 p-2 text-white shadow transition hover:bg-custom_purple-500 sm:p-3 lg:p-4"
+        className="inline-block rounded-full bg-blue-600 p-2 text-white shadow transition hover:bg-custom_purple-500 sm:p-3 lg:p-4"
         onClick={goTop}
       >
         <span className="sr-only">Back to top</span>

@@ -207,7 +207,7 @@ const EducationBanner = () => {
                     fill="currentColor"
                   />
                 </svg>
-                Online & Offline Learning
+                live interractive sessions
               </li>
             </ul>
           </div>

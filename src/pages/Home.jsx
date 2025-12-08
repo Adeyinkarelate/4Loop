@@ -12,20 +12,20 @@ const Home = () => {
   return (
     <div className="bg-white">
       <Helmet>
-        <title>Home | Adexbit's Tech Fusion Hub</title>
-        <meta name="title" content="Home | Adexbit's Tech Fusion Hub" />
+        <title>Home | Adexbit's Edutech Academy</title>
+        <meta name="title" content="Home | Adexbit's Edutech Academy" />
         <meta
           name="description"
-          content=" Adexbit's Tech Fusion Hub is an online tech school where you get to learn new skills in a wide variety of inspiring, interactive workshops. As a student you get to learn web development, data analytics and forex."
+          content=" Adexbit's Edutech Academy is an online tech school where you get to learn new skills in a wide variety of inspiring, interactive workshops. As a student you get to learn web development, data analytics and forex."
         />
 
-        <meta name="og:title" content="Home | Adexbit's Tech Fusion Hub" />
+        <meta name="og:title" content="Home | Adexbit's Edutech Academy" />
         <meta
           name="og:description"
-          content="Adexbit's Tech Fusion Hub is an online tech school where you get to learn new skills in a wide variety of inspiring, interactive workshops. As a student you get to learn web development, data analytics and forex."
+          content="Adexbit's Edutech Academy is an online tech school where you get to learn new skills in a wide variety of inspiring, interactive workshops. As a student you get to learn web development, data analytics and forex."
         />
         <meta name="og:type" content="website" />
-        <meta name="og:url" content="" />
+        <meta name="og:url" content="https://adexbitedutech.com/" />
 
         <meta
           name="keywords"

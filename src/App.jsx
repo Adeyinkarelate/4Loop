@@ -10,12 +10,14 @@ import CourseCategorySection from "./pages/CourseCategorySection";
 import BackToTop from "./components/BackToTop/BackToTop";
 import PythonFullStack from "./pages/PythonFullStack";
 import DataAnalysisDemandPlanning from "./pages/DataAnalysisDemandPlanning";
+import ScrollToTop from "./components/ScrollToTop";
 
 const App = () => {
   return (
     <main>
       <BackToTop />
       <BrowserRouter>
+      <ScrollToTop/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/python" element={<PythonFullStack />} />

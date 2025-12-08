@@ -13,13 +13,44 @@ import { FaHeart } from "react-icons/fa6";
 import Navbar from "../components/Navbar";
 import CouseDesc from "../components/CouseDesc";
 import CourseOutline from "../components/CourseOutline";
-import {  AWSArchitectModules } from "../data/data";
+import { AWSArchitectModules } from "../data/data";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const AwsSolutionArchitect = () => {
   return (
     <>
+      <Helmet>
+        <title>AwsSolutionArchitect| Adexbit's Edutech Academy</title>
+        <meta
+          name="title"
+          content="AwsSolutionArchitect| Adexbit's Edutech Academy"
+        />
+        <meta
+          name="description"
+          content=" Adexbit's Edutech Academy is an online tech school where you get to learn new skills in a wide variety of inspiring, interactive workshops. As a student you get to learn web development, data analytics and forex."
+        />
+
+        <meta
+          name="og:title"
+          content="AwsSolutionArchitect | Adexbit's Edutech Academy"
+        />
+        <meta
+          name="og:description"
+          content="Adexbit's Edutech Academy is an online tech school where you get to learn new skills in a wide variety of inspiring, interactive workshops. As a student you get to learn web development, data analytics and forex."
+        />
+        <meta name="og:type" content="website" />
+        <meta
+          name="og:url"
+          content="https://adexbitedutech.com/solution-architect"
+        />
+
+        <meta
+          name="keywords"
+          content="Home page, Adexbit, Tech, Academy, Adexbit's,DevOp,Cloud Engineering, Learn Data Analytics, Learn Data science, Learn web development in Nigeria, Become a software engineer, frontend development, backend development, Learn HTML, Learn CSS, Learn JavaScript, Learn Python, Learn SQL,"
+        ></meta>
+      </Helmet>
       <Navbar />
       <CouseDesc
         title="AWS Solution Architect: Master Cloud Infrastructure & Deployment"
@@ -86,18 +117,22 @@ const AwsSolutionArchitect = () => {
             </h1>
 
             <p className="pt-4 text-white text-lg text-justify leading-relaxed">
-              Become a certified AWS Solution Architect in just 3 months.
-              This program teaches you everything from Linux fundamentals to cloud networking, 
-              security, automation, and building scalable AWS architectures. Through hands-on 
-              labs, guided projects, and real-life scenarios, you'll learn how to design and 
-              deploy secure, highly available and cost-optimized cloud solutions using EC2, 
-              VPC, IAM, S3, RDS, Load Balancers, Auto Scaling, CloudFront, Route 53, and more.
+              Become a certified AWS Solution Architect in just 3 months. This
+              program teaches you everything from Linux fundamentals to cloud
+              networking, security, automation, and building scalable AWS
+              architectures. Through hands-on labs, guided projects, and
+              real-life scenarios, you'll learn how to design and deploy secure,
+              highly available and cost-optimized cloud solutions using EC2,
+              VPC, IAM, S3, RDS, Load Balancers, Auto Scaling, CloudFront, Route
+              53, and more.
             </p>
           </div>
 
           {/* WHAT YOU WILL LEARN */}
           <div className="gap-2 items-center pt-15">
-            <p className="w-15 h-15 rounded-full bg-purple-600/20 flex justify-center items-center text-white text-3xl">?</p>
+            <p className="w-15 h-15 rounded-full bg-purple-600/20 flex justify-center items-center text-white text-3xl">
+              ?
+            </p>
 
             <p className="font-out text-2xl bg-linear-to-r from-purple-800 to-purple-300 bg-transparent bg-clip-text text-transparent">
               Highly Practical
@@ -110,22 +145,26 @@ const AwsSolutionArchitect = () => {
             <ul className="pt-4 space-y-4 leading-relaxed">
               <li className="flex items-center gap-3 text-md text-white">
                 <IoCheckmark className="text-purple-500" />
-                Master Linux commands, system administration, package management & shell scripting.
+                Master Linux commands, system administration, package management
+                & shell scripting.
               </li>
 
               <li className="flex items-center gap-3 text-md text-white">
                 <IoCheckmark className="text-purple-500" />
-                Understand networking: IPs, subnets, routing, load balancers, firewalls & DNS.
+                Understand networking: IPs, subnets, routing, load balancers,
+                firewalls & DNS.
               </li>
 
               <li className="flex items-center gap-3 text-md text-white">
                 <IoCheckmark className="text-purple-500" />
-                Build and deploy cloud infrastructure using EC2, VPC, RDS, S3, EBS, IAM & CloudWatch.
+                Build and deploy cloud infrastructure using EC2, VPC, RDS, S3,
+                EBS, IAM & CloudWatch.
               </li>
 
               <li className="flex items-center gap-3 text-md text-white">
                 <IoCheckmark className="text-purple-500" />
-                Design scalable architectures using Auto Scaling, Load Balancing & Multi-AZ strategies.
+                Design scalable architectures using Auto Scaling, Load Balancing
+                & Multi-AZ strategies.
               </li>
 
               <li className="flex items-center gap-3 text-md text-white">
@@ -135,48 +174,65 @@ const AwsSolutionArchitect = () => {
 
               <li className="flex items-center gap-3 text-md text-white">
                 <IoCheckmark className="text-purple-500" />
-                Configure routing, failover & global delivery using Route 53 & CloudFront.
+                Configure routing, failover & global delivery using Route 53 &
+                CloudFront.
               </li>
 
               <li className="flex items-center gap-3 text-md text-white">
                 <IoCheckmark className="text-purple-500" />
-                Implement security best practices for identity, encryption, logging & compliance.
+                Implement security best practices for identity, encryption,
+                logging & compliance.
               </li>
 
               <li className="flex items-center gap-3 text-md text-white">
                 <IoCheckmark className="text-purple-500" />
-                Build a complete cloud project and prepare for the AWS Solutions Architect Certification.
+                Build a complete cloud project and prepare for the AWS Solutions
+                Architect Certification.
               </li>
             </ul>
           </div>
 
           {/* COURSE CONTENT */}
           <div className="gap-2 items-center pt-15">
-            <p className="w-15 h-15 rounded-full bg-purple-600/20 flex justify-center items-center text-white text-3xl">?</p>
+            <p className="w-15 h-15 rounded-full bg-purple-600/20 flex justify-center items-center text-white text-3xl">
+              ?
+            </p>
 
             <p className="font-out text-2xl bg-linear-to-r from-purple-800 to-purple-300 bg-transparent bg-clip-text text-transparent">
               A Perfectly Structured Course
             </p>
 
             <div className="font-out font-semibold my-2">
-              <p className="font-medium pt-2 text-md">Timing: Week-days / Saturday (2pm - 5pm)</p>
+              <p className="font-medium pt-2 text-md">
+                Timing: Week-days / Saturday (2pm - 5pm)
+              </p>
               <p className="font-medium pt-2 text-md">Duration: 3-Month</p>
-              <p className="font-medium pt-2 text-md">Format: Online, live interactive sessions</p>
-              <p className="font-medium pt-2 text-md">4 - Real Cloud Projects</p>
-              <p className="font-medium pt-2 text-md">Flexible Payment (3 installments)</p>
-              <p className="font-medium pt-2 text-md">Class recordings available after each session</p>
+              <p className="font-medium pt-2 text-md">
+                Format: Online, live interactive sessions
+              </p>
+              <p className="font-medium pt-2 text-md">
+                4 - Real Cloud Projects
+              </p>
+              <p className="font-medium pt-2 text-md">
+                Flexible Payment (3 installments)
+              </p>
+              <p className="font-medium pt-2 text-md">
+                Class recordings available after each session
+              </p>
             </div>
 
             <h1 className="font-out font-semibold pt-8 text-2xl my-2">
               Course Content
             </h1>
 
-            <CourseOutline modules={ AWSArchitectModules} />
+            <CourseOutline modules={AWSArchitectModules} />
           </div>
 
           {/* TARGET STUDENT */}
           <div className="gap-2 items-center pt-15">
-            <p className="w-15 h-15 rounded-full bg-purple-600/20 flex justify-center items-center text-white text-3xl">?</p>
+            <p className="w-15 h-15 rounded-full bg-purple-600/20 flex justify-center items-center text-white text-3xl">
+              ?
+            </p>
 
             <p className="font-out text-xl bg-linear-to-r from-purple-800 to-purple-300 bg-transparent bg-clip-text text-transparent">
               Target Student
@@ -188,22 +244,26 @@ const AwsSolutionArchitect = () => {
 
             <p className="flex items-center gap-3 pt-4 text-white">
               <IoCheckmark className="text-purple-500" />
-              Beginners wanting to start a high-paying career in cloud computing.
+              Beginners wanting to start a high-paying career in cloud
+              computing.
             </p>
 
             <p className="flex items-center gap-3 pt-4 text-white">
               <IoCheckmark className="text-purple-500" />
-              IT professionals who want hands-on AWS skills and certification-level knowledge.
+              IT professionals who want hands-on AWS skills and
+              certification-level knowledge.
             </p>
 
             <p className="flex items-center gap-3 pt-4 text-white">
               <IoCheckmark className="text-purple-500" />
-              Developers, DevOps engineers and system admins looking to expand into cloud architecture.
+              Developers, DevOps engineers and system admins looking to expand
+              into cloud architecture.
             </p>
 
             <p className="flex items-center gap-3 pt-4 text-white">
               <IoCheckmark className="text-purple-500" />
-              Anyone switching careers into cloud technology with no prior experience.
+              Anyone switching careers into cloud technology with no prior
+              experience.
             </p>
           </div>
         </div>
