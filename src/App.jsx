@@ -24,16 +24,10 @@ const App = () => {
           <Route path="/dev" element={<DevOPs />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/demand-planner" element={<DemandPlanner />} />
-          <Route
-            path="/solution-architect"
-            element={<AwsSolutionArchitect />}
-          />
-          <Route path="/front-end" element={<Frontend />} />
+          <Route path="/solution-architect" element={<AwsSolutionArchitect />}/>
+          <Route path="/front-end" element={<Frontend/>} />
           <Route path="/courses" element={<CourseCategorySection />} />
-          <Route
-            path="/data-analysis"
-            element={<DataAnalysisDemandPlanning />}
-          />
+          <Route path="/data-analysis" element={<DataAnalysisDemandPlanning/>}/>
         </Routes>
       </BrowserRouter>
     </main>

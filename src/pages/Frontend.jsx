@@ -16,6 +16,7 @@ import CourseOutline from "../components/CourseOutline";
 import { FrontendModules } from "../data/data";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const Frontend = () => {
   return (
