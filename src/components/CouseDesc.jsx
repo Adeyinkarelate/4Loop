@@ -25,7 +25,20 @@ const CouseDesc = ({ title, desc }) => {
           </div>
         </div>
         <div className=" bg-black   bg-linear-to-tr from-purple-800 to-purple-300 w-[280px] h-[400px] rounded-3xl">
-          <div className="bg-black w-[280px] h-[395px] rounded-3xl mt-0.5"></div>
+          <div className="bg-black w-[280px] h-[395px] rounded-md mt-0.5 p-6 font-mon text-center">
+            <h1 className="text-amber-600 text-2xl font-bold my-2">
+              FLEXIBLE PAYMENT !! 👉🏼
+            </h1>
+            <p className="font-mon font-light uppercase text-white my-2">
+              🔥Immerse yourself in hands-on, real-world projects that simulate
+              industry challenges.
+            </p>
+            <div>
+              <Link to="/contact" class="btn shadow-none bg-blue-950 text-white my-2 border-none">
+                Enroll
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
 

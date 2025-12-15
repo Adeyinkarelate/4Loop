@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "/logo2.png"
+import logo from "/logo2.png";
 
 const Navbar = () => {
   return (
@@ -33,21 +33,24 @@ const Navbar = () => {
               <Link to="/contact">Contact</Link>
             </li>
             <li>
-              <Link to="/courses">Courses</Link>
-            </li>
-            <li>
               <a>Learning Path</a>
               <ul class="p-2">
+                <li>
+                  <Link to="/python">Full Stack (Django)</Link>
+                </li>
+                <li>
+                  <Link to="/java-programming">Full Stack (Spring)</Link>
+                </li>
                 <li>
                   <Link to="/dev">DevOps</Link>
                 </li>
                 <li>
-                  <a>Data Analysis</a>
-                </li>
-                <li>
-                  <Link to="/python">Full Stack (Python)</Link>
+                  <Link to="/data-analysis">Data Analysis</Link>
                 </li>
               </ul>
+            </li>
+            <li>
+              <Link to="/courses">Courses</Link>
             </li>
           </ul>
         </div>
@@ -59,32 +62,39 @@ const Navbar = () => {
       <div class="navbar-center hidden lg:flex rounded-none">
         <ul class="menu menu-horizontal px-1 men-md">
           <li>
-              <Link to="/courses">Courses</Link>
-            </li>
+            <Link to="/courses">Courses</Link>
+          </li>
           <li>
             <Link to="/contact">Contact</Link>
           </li>
           <li>
             <details>
               <summary>Learning Path</summary>
-              <ul class="p-2 w-52 bg-black text-white">
-                 <li>
+              <ul class="p-2 w-52 bg-white text-gray-700">
+                <li>
+                  <Link to="/python">Full Stack (Django)</Link>
+                </li>
+                <li>
+                  <Link to="/java-programming">Full Stack (Spring Boot)</Link>
+                </li>
+                <li>
                   <Link to="/dev">DevOps</Link>
                 </li>
                 <li>
-                  <a>Data Analysis</a>
-                </li>
-                <li>
-                  <Link to="/python">Full Stack (Python)</Link>
+                  <Link to="/data-analysis">Data Analysis</Link>
                 </li>
               </ul>
             </details>
           </li>
-         
+          <li>
+            <Link to="/OneYearAccess">1 Year Membership</Link>
+          </li>
         </ul>
       </div>
       <div class="navbar-end">
-        <Link to="contact" class="btn bg-blue-950 text-white">Enroll</Link>
+        <Link to="/contact" class="btn bg-blue-950 text-white">
+          Enroll
+        </Link>
       </div>
     </div>
   );

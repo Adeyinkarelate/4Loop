@@ -16,6 +16,7 @@ import CourseOutline from "../components/CourseOutline";
 import { DevOpsModules } from "../data/data";
 import Footer from "../components/Footer";
 import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
 
 const DevOPs = () => {
   return (
@@ -28,19 +29,13 @@ const DevOPs = () => {
           content=" Adexbit's Edutech Academy is an online tech school where you get to learn new skills in a wide variety of inspiring, interactive workshops. As a student you get to learn web development, data analytics and forex."
         />
 
-        <meta
-          name="og:title"
-          content="DevOps | Adexbit's Edutech Academy"
-        />
+        <meta name="og:title" content="DevOps | Adexbit's Edutech Academy" />
         <meta
           name="og:description"
           content="Adexbit's Edutech Academy is an online tech school where you get to learn new skills in a wide variety of inspiring, interactive workshops. As a student you get to learn web development, data analytics and forex."
         />
         <meta name="og:type" content="website" />
-        <meta
-          name="og:url"
-          content="https://adexbitedutech.com/dev"
-        />
+        <meta name="og:url" content="https://adexbitedutech.com/dev" />
 
         <meta
           name="keywords"
@@ -56,56 +51,47 @@ const DevOPs = () => {
       />
       <div className="flex flex-col lg:flex-row min-h-screen justify-center gap-30 mt-20 p-4 md:p-8">
         {/* Side bar */}
-        <aside className='lg:sticky top-30 "w-[400px]  self-start p-4'>
+        <aside className='lg:sticky top-30 "w-[400px] self-start p-4'>
           <ul className="space-y-5">
-            <li className=" text-white  text-xl  flex items-center  gap-3">
+            <li className="text-gray-700 text-xl flex items-center gap-3">
               <IoBookOutline /> About the course
             </li>
-            <li className=" text-white  text-xl flex items-center gap-3 ">
-              <IoBulbOutline />
-              What You'll Learn
+            <li className="text-gray-700 text-xl flex items-center gap-3">
+              <IoBulbOutline /> What You'll Learn
             </li>
-            <li className=" text-white  text-xl flex items-center gap-3">
-              {" "}
-              <IoCheckmarkDoneOutline />
-              Curriculum
+            <li className="text-gray-700 text-xl flex items-center gap-3">
+              <IoCheckmarkDoneOutline /> Curriculum
             </li>
-            <li className=" text-white  text-xl flex gap-3 items-center">
-              {" "}
-              <IoPerson />
-              Target Audience
+            <li className="text-gray-700 text-xl flex gap-3 items-center">
+              <IoPerson /> Target Audience
             </li>
-            <li className=" text-white  text-xl flex items-center gap-3">
-              {" "}
-              <GiRoundShield />
-              Prerequisites
+            <li className="text-gray-700 text-xl flex items-center gap-3">
+              <GiRoundShield /> Prerequisites
             </li>
-            <li className=" text-white  text-xl flex gap-3 items-center">
-              {" "}
-              <IoPerson />
-              Your Instructor
+            <li className="text-gray-700 text-xl flex gap-3 items-center">
+              <IoPerson /> Your Instructor
             </li>
-            <li className=" text-white  text-xl flex gap-3 items-center">
-              {" "}
-              <AiOutlineMessage />
-              Reviews
+            <li className="text-gray-700 text-xl flex gap-3 items-center">
+              <AiOutlineMessage /> Reviews
             </li>
-            <li className=" text-white  text-xl flex gap-3 items-center">
-              {" "}
-              <LuPackageOpen />
-              Exclusive Bonus
+            <li className="text-gray-700 text-xl flex gap-3 items-center">
+              <LuPackageOpen /> Exclusive Bonus
             </li>
           </ul>
-          <button className="bg-purple-700 text-white text-[20px] rounded-full px-8 py-3 mt-3">
+
+          <Link
+            to="/contact"
+            className="bg-blue-950 text-white text-[20px] rounded-full px-8 py-3 mt-3 inline-block"
+          >
             Enroll now
-          </button>
+          </Link>
         </aside>
 
         {/*============ main contents =========*/}
 
         <div className=" md:max-w-[700px] lg:max-w-[800px]   ">
           <div>
-            <p className="w-15 h-15 rounded-full bg-purple-600/20 flex justify-center items-center text-white text-3xl">
+            <p className="w-15 h-15 rounded-full bg-purple-600/20 flex justify-center items-center text-gray-700 text-3xl">
               ?
             </p>
 
@@ -119,10 +105,10 @@ const DevOPs = () => {
             </div>
             {/* =============change================ */}
             <div>
-              <h1 className=" text-2xl text-white font-semibold pt-8">
+              <h1 className=" text-2xl text-gray-700 font-semibold pt-8">
                 ABOUT THE COURSE
               </h1>
-              <p className=" pt-4 text-white text-lg text-justify leading-relaxed">
+              <p className=" pt-4 text-gray-700 text-lg text-justify leading-relaxed">
                 This comprehensive 4-month course is designed to take you on a
                 complete journey through the fundamentals and advanced practices
                 of DevOps. You'll gain hands-on experience with
@@ -144,7 +130,7 @@ const DevOPs = () => {
           {/* what tou will learn */}
 
           <div className="gap-2 items-center pt-15">
-            <p className="w-15 h-15 rounded-full bg-purple-600/20 flex justify-center items-center text-white text-3xl">
+            <p className="w-15 h-15 rounded-full bg-purple-600/20 flex justify-center items-center text-gray-700 text-3xl">
               ?
             </p>
 
@@ -153,32 +139,32 @@ const DevOPs = () => {
             </p>
 
             <div>
-              <h1 className="text-2xl text-white font-semibold pt-8">
+              <h1 className="text-2xl text-gray-700 font-semibold pt-8">
                 What You'll Learn
               </h1>
 
               <ul className="pt-4 space-y-4 leading-relaxed">
-                <li className="flex items-center gap-3 text-md text-white">
+                <li className="flex items-center gap-3 text-md text-gray-700">
                   <IoCheckmark className="text-purple-500" />
                   Tech learners or career changers interested in mastering
                   Continuous Integration (CI), Continuous Deployment (CD), cloud
                   infrastructure automation, and container orchestration.
                 </li>
 
-                <li className="flex items-center gap-3 text-md text-white">
+                <li className="flex items-center gap-3 text-md text-gray-700">
                   <IoCheckmark className="text-purple-500" />
                   Beginners looking to learn AWS and DevOps from scratch, with
                   step-by-step guidance and hands-on labs.
                 </li>
 
-                <li className="flex items-center gap-3 text-md text-white">
+                <li className="flex items-center gap-3 text-md text-gray-700">
                   <IoCheckmark className="text-purple-500" />
                   Aspiring DevOps Engineers who want to build a strong
                   foundation in Linux, cloud computing, automation, and modern
                   deployment tools.
                 </li>
 
-                <li className="flex items-center gap-3 text-md text-white">
+                <li className="flex items-center gap-3 text-md text-gray-700">
                   <IoCheckmark className="text-purple-500" />
                   Developers and system administrators who want to transition
                   into DevOps and gain hands-on experience with Linux, AWS,
@@ -192,31 +178,33 @@ const DevOPs = () => {
           {/* ======================================================================================================== */}
 
           <div className=" gap-2 items-center  pt-15 ">
-            <p className="w-15 h-15 rounded-full bg-purple-600/20 flex justify-center items-center text-white text-3xl">
+            <p className="w-15 h-15 rounded-full bg-purple-600/20 flex justify-center items-center text-gray-700 text-3xl">
               ?
             </p>
 
             <p className="font-out text-2xl flex gap-2 items-center mt-2 bg-linear-to-r from-purple-800 to-purple-300 bg-transparent bg-clip-text text-transparent">
               A Perfectly Structured Course
             </p>
-            <div className=" font-out font-semibold my-2">
-              <p className="font-medium  pt-2 text-md my-2">
-                Timing: Tuesday & Wednesday (10am - 12pm) / Saturday (10am -
-                1pm)
+            <div className=" font-mon font-bold my-2 text-xl text-black ">
+              <p className="pt-2">
+                Price : &#x20A6;450,000
               </p>
-              <p className="font-medium  pt-2 text-md my-2">
+              <p className="pt-2 my-2">
+                Timing: Weekdays or Saturday
+              </p>
+              <p className="pt-2 my-2">
                 Duration: 4-Month
               </p>
-              <p className="font-medium  pt-2 text-md my-2">
+              <p className="pt-2 my-2">
                 Format: Online, live interractive sessions
               </p>
-              <p className="font-medium  pt-2 text-md my-2">
+              <p className="pt-2 my-2">
                 Assistant with Cloud practional certificate
               </p>
-              <p className="font-medium  pt-2 text-md my-2">
+              <p className="pt-2 my-2">
                 Flexible Payment (3 times){" "}
               </p>
-              <p className="font-medium  pt-2 text-md my-2">
+              <p className="pt-2 my-2">
                 Class recording will be available at the end of each class{" "}
               </p>
             </div>
@@ -233,7 +221,7 @@ const DevOPs = () => {
           {/* /* Target Student *============================================/} */}
 
           <div className=" gap-2 items-center  pt-15 ">
-            <p className="w-15 h-15 rounded-full bg-purple-600/20 flex justify-center items-center text-white text-3xl">
+            <p className="w-15 h-15 rounded-full bg-purple-600/20 flex justify-center items-center text-gray-700 text-3xl">
               ?
             </p>
 
@@ -241,11 +229,11 @@ const DevOPs = () => {
               Target Student
             </p>
             <div>
-              <h1 className=" text-2xl text-white font-semibold pt-8">
+              <h1 className=" text-2xl text-gray-700 font-semibold pt-8">
                 Who Is This For?
               </h1>
 
-              <p className="flex items-center gap-3  pt-4 text-white leading-relaxed">
+              <p className="flex items-center gap-3  pt-4 text-gray-700 leading-relaxed">
                 {" "}
                 <IoCheckmark className="text-purple-500" />
                 Perfect for anyone who wants to build real-world DevOps skills
@@ -253,7 +241,7 @@ const DevOPs = () => {
                 industry.
               </p>
 
-              <p className="flex items-center gap-3 leading-relaxed pt-4 text-white">
+              <p className="flex items-center gap-3 leading-relaxed pt-4 text-gray-700">
                 {" "}
                 <IoCheckmark className="text-purple-500" />
                 Anyone aiming to become a job-ready DevOps Engineer with

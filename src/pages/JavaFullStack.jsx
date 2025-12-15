@@ -13,50 +13,50 @@ import { FaHeart } from "react-icons/fa6";
 import Navbar from "../components/Navbar";
 import CouseDesc from "../components/CouseDesc";
 import CourseOutline from "../components/CourseOutline";
-import { PythonFullStackModules } from "../data/data";
+import { JavaFullStackModules } from "../data/data";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 
-const PythonFullStack = () => {
+const JavaFullStack = () => {
   return (
     <>
       <Helmet>
-        <title>Full Stack Python & Django | Adexbit EduTech Academy</title>
+        <title>Full Stack Java & Spring Boot | Adexbit EduTech Academy</title>
         <meta
           name="title"
-          content="Full Stack Python & Django | Adexbit EduTech Academy"
+          content="Full Stack Java & Spring Boot | Adexbit EduTech Academy"
         />
         <meta
           name="description"
-          content="Become a job-ready Full Stack Python Developer. Learn HTML, CSS, JavaScript, Tailwind, Python, Django, Django REST Framework (DRF), Git, APIs, and full-stack deployment."
+          content="Become a job-ready Full Stack Java Developer. Learn HTML, CSS, JavaScript, Tailwind, React, Java, Spring Boot, Git, REST APIs, security, and full-stack deployment."
         />
 
         <meta
           name="og:title"
-          content="Full Stack Python & Django | Adexbit EduTech Academy"
+          content="Full Stack Java & Spring Boot | Adexbit EduTech Academy"
         />
         <meta
           name="og:description"
-          content="A complete Full Stack Python program covering frontend development, backend APIs with Django & DRF, authentication, databases, and real-world projects."
+          content="A complete 6-month Full Stack Java program covering frontend, backend, Spring Boot, REST APIs, security, and real-world projects."
         />
         <meta name="og:type" content="website" />
         <meta
           name="og:url"
-          content="https://adexbitedutech.com/python"
+          content="https://adexbitedutech.com/java-fullstack"
         />
 
         <meta
           name="keywords"
-          content="Full Stack Python, Django, DRF, Python Developer Nigeria, Learn Python, Web Development, Backend Development, Adexbit EduTech"
+          content="Full Stack Java, Spring Boot, Java Developer Nigeria, Learn Java, React Java Full Stack, Backend Development, Adexbit EduTech"
         />
       </Helmet>
 
       <Navbar />
 
       <CouseDesc
-        title="Full Stack Python Development with Django & DRF"
-        desc="This intensive program prepares you to become a professional Full Stack Python Developer. You’ll master frontend technologies, backend development with Python & Django, build REST APIs using DRF, manage databases, and deploy complete web applications."
+        title="Full Stack Java Development with Spring Boot"
+        desc="This intensive 6-month program trains you to become a professional Full Stack Java Developer. You’ll master modern frontend technologies, backend development with Java & Spring Boot, database integration, security, and full-stack deployment."
       />
 
       <div className="flex flex-col lg:flex-row min-h-screen justify-center gap-30 mt-20 p-4 md:p-8">
@@ -118,12 +118,12 @@ const PythonFullStack = () => {
               ABOUT THE COURSE
             </h1>
             <p className="pt-4 text-gray-700 text-lg text-justify leading-relaxed">
-              The Full Stack Python with Django program is designed to take you
-              from beginner to job-ready developer. You’ll learn how to build
-              responsive user interfaces, write clean Python code, develop
-              secure backend applications with Django, expose APIs using Django
-              REST Framework, and deploy full-stack solutions used by modern
-              companies.
+              The Full Stack Java with Spring Boot program is designed to take
+              you from beginner to professional developer. Over 6 months, you’ll
+              build responsive frontend applications, develop powerful backend
+              services using Java and Spring Boot, integrate databases, secure
+              applications, and deploy full-stack solutions used in real-world
+              businesses.
             </p>
           </div>
 
@@ -144,33 +144,32 @@ const PythonFullStack = () => {
             <ul className="pt-4 space-y-4 leading-relaxed">
               <li className="flex gap-3 text-gray-700">
                 <IoCheckmark className="text-purple-500" />
-                Build responsive websites using HTML, CSS, Tailwind, and
-                JavaScript.
+                Build responsive user interfaces using HTML, CSS, Tailwind, and
+                React.
               </li>
               <li className="flex gap-3 text-gray-700">
                 <IoCheckmark className="text-purple-500" />
-                Write clean, efficient Python code and understand core concepts.
+                Write clean, modern JavaScript and manage state in React apps.
               </li>
               <li className="flex gap-3 text-gray-700">
                 <IoCheckmark className="text-purple-500" />
-                Develop backend applications using Django.
+                Master Java programming and object-oriented principles.
               </li>
               <li className="flex gap-3 text-gray-700">
                 <IoCheckmark className="text-purple-500" />
-                Build RESTful APIs with Django REST Framework (DRF).
+                Build RESTful APIs with Spring Boot and Spring Data JPA.
               </li>
               <li className="flex gap-3 text-gray-700">
                 <IoCheckmark className="text-purple-500" />
-                Implement authentication, permissions, and security best
-                practices.
+                Secure applications using Spring Security and JWT.
               </li>
               <li className="flex gap-3 text-gray-700">
                 <IoCheckmark className="text-purple-500" />
-                Use Git and GitHub for version control and collaboration.
+                Use Git and GitHub for collaboration and version control.
               </li>
               <li className="flex gap-3 text-gray-700">
                 <IoCheckmark className="text-purple-500" />
-                Build and deploy a complete Full Stack Python application.
+                Develop and deploy a complete full-stack Java application.
               </li>
             </ul>
           </div>
@@ -186,22 +185,22 @@ const PythonFullStack = () => {
             </p>
 
             <div className="font-mon font-bold my-2 text-xl text-black">
-              <p className="pt-2">
-                Price : &#x20A6;550,000
+              <p className="pt-2 my-2">
+                Price : &#x20A6;650,000
               </p>
-              <p className="pt-2 my-2">Timing: Weekdays or Saturday </p>
-              <p className="pt-2 my-2">Duration: 6 Months</p>
+              <p className="pt-2 my-2">Timing: Weekdays or Saturday</p>
+              <p className="pt-2 my-2">Duration: 6-Months</p>
               <p className="pt-2 my-2">Format: Online, live interactive sessions</p>
               <p className="pt-2 my-2">Multiple Hands-on Projects</p>
               <p className="pt-2 my-2">Flexible Payment (Up to 3 installments)</p>
-              <p className="pt-2 my-2">Class recordings available, immediately after every class</p>
+              <p className="pt-2 my-2">Class recordings available</p>
             </div>
 
             <h1 className="font-out font-semibold pt-8 text-2xl my-2">
               Course Content
             </h1>
 
-            <CourseOutline modules={PythonFullStackModules} />
+            <CourseOutline modules={JavaFullStackModules} />
           </div>
 
           {/* Target student */}
@@ -220,22 +219,22 @@ const PythonFullStack = () => {
 
             <p className="flex gap-3 pt-4 text-gray-700">
               <IoCheckmark className="text-purple-500" />
-              Beginners who want to start a career in software development.
+              Beginners who want to become professional software developers.
             </p>
 
             <p className="flex gap-3 pt-4 text-gray-700">
               <IoCheckmark className="text-purple-500" />
-              Frontend developers looking to transition into backend development.
+              Frontend developers looking to add backend Java skills.
             </p>
 
             <p className="flex gap-3 pt-4 text-gray-700">
               <IoCheckmark className="text-purple-500" />
-              Career switchers targeting Python and web development roles.
+              Graduates and career switchers targeting enterprise tech roles.
             </p>
 
             <p className="flex gap-3 pt-4 text-gray-700">
               <IoCheckmark className="text-purple-500" />
-              Anyone preparing for Python, Django, or backend developer roles.
+              Anyone preparing for Java & Spring Boot developer roles.
             </p>
           </div>
         </div>
@@ -246,4 +245,4 @@ const PythonFullStack = () => {
   );
 };
 
-export default PythonFullStack;
+export default JavaFullStack;

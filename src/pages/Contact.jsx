@@ -247,11 +247,11 @@ export default function Contact() {
               </div>
             </section>
             {/* ======================================================== */}
-            <div className="card bg-base-200 text-white w-full max-w-sm shrink-0 shadow-2xl ">
+            <div className="card bg-base-200 text-gray-800 w-full max-w-sm shrink-0 shadow-2xl ">
               <div className="card-body">
                 <form className="fieldset" onSubmit={handleSubmit}>
                   <div>
-                    <label className="label text-white my-2">Full Name</label>
+                    <label className="label text-gray-800 my-2">Full Name</label>
                     <input
                       type="text"
                       className="input"
@@ -264,7 +264,7 @@ export default function Contact() {
                   </div>
 
                   <div>
-                    <label className="label text-white my-2">
+                    <label className="label text-gray-800 my-2">
                       Phone Number
                     </label>
                     <input
@@ -279,7 +279,7 @@ export default function Contact() {
                   </div>
 
                   <div>
-                    <label className="label text-white my-2">
+                    <label className="label text-gray-800 my-2">
                       Select Course
                     </label>
                     <select
@@ -300,7 +300,7 @@ export default function Contact() {
                   </div>
 
                   <div>
-                    <label className="label text-white my-2">Message</label>
+                    <label className="label text-gray-800 my-2">Message</label>
                     <textarea
                       rows="5"
                       className="w-full p-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-indigo-500"

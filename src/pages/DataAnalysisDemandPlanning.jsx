@@ -58,37 +58,37 @@ const DataAnalysisDemandPlanning = () => {
 
       <div className="flex flex-col lg:flex-row min-h-screen justify-center gap-30 mt-20 p-4 md:p-8">
         {/* SIDEBAR */}
-        <aside className="lg:sticky top-30 w-[400px] self-start p-4">
+        <aside className='lg:sticky top-30 "w-[400px] self-start p-4'>
           <ul className="space-y-5">
-            <li className="text-white text-xl flex items-center gap-3">
+            <li className="text-gray-700 text-xl flex items-center gap-3">
               <IoBookOutline /> About the course
             </li>
-            <li className="text-white text-xl flex items-center gap-3">
+            <li className="text-gray-700 text-xl flex items-center gap-3">
               <IoBulbOutline /> What You'll Learn
             </li>
-            <li className="text-white text-xl flex items-center gap-3">
+            <li className="text-gray-700 text-xl flex items-center gap-3">
               <IoCheckmarkDoneOutline /> Curriculum
             </li>
-            <li className="text-white text-xl flex items-center gap-3">
+            <li className="text-gray-700 text-xl flex gap-3 items-center">
               <IoPerson /> Target Audience
             </li>
-            <li className="text-white text-xl flex items-center gap-3">
+            <li className="text-gray-700 text-xl flex items-center gap-3">
               <GiRoundShield /> Prerequisites
             </li>
-            <li className="text-white text-xl flex items-center gap-3">
+            <li className="text-gray-700 text-xl flex gap-3 items-center">
               <IoPerson /> Your Instructor
             </li>
-            <li className="text-white text-xl flex items-center gap-3">
+            <li className="text-gray-700 text-xl flex gap-3 items-center">
               <AiOutlineMessage /> Reviews
             </li>
-            <li className="text-white text-xl flex items-center gap-3">
+            <li className="text-gray-700 text-xl flex gap-3 items-center">
               <LuPackageOpen /> Exclusive Bonus
             </li>
           </ul>
 
           <Link
             to="/contact"
-            className="bg-purple-700 text-white text-[20px] rounded-full px-8 py-3 mt-3 block text-center"
+            className="bg-blue-950 text-white text-[20px] rounded-full px-8 py-3 mt-3 inline-block"
           >
             Enroll now
           </Link>
@@ -98,7 +98,7 @@ const DataAnalysisDemandPlanning = () => {
         <div className="md:max-w-[700px] lg:max-w-[800px]">
           {/* MADE WITH LOVE */}
           <div>
-            <p className="w-15 h-15 rounded-full bg-purple-600/20 flex justify-center items-center text-white text-3xl">
+            <p className="w-15 h-15 rounded-full bg-purple-600/20 flex justify-center items-center text-gray-700 text-3xl">
               ?
             </p>
             <div className="flex gap-2 items-center">
@@ -111,11 +111,11 @@ const DataAnalysisDemandPlanning = () => {
             </div>
 
             {/* ABOUT THE COURSE */}
-            <h1 className="text-2xl text-white font-semibold pt-8">
+            <h1 className="text-2xl text-gray-700 font-semibold pt-8">
               ABOUT THE COURSE
             </h1>
 
-            <p className="pt-4 text-white text-lg text-justify leading-relaxed">
+            <p className="pt-4 text-gray-700 text-lg text-justify leading-relaxed">
               This 4-month Data Analysis & Demand Planning program prepares you
               for high-demand roles in business analytics, operations, supply
               chain, and finance.
@@ -131,7 +131,7 @@ const DataAnalysisDemandPlanning = () => {
 
           {/* WHAT YOU WILL LEARN */}
           <div className="gap-2 items-center pt-15">
-            <p className="w-15 h-15 rounded-full bg-purple-600/20 flex justify-center items-center text-white text-3xl">
+            <p className="w-15 h-15 rounded-full bg-purple-600/20 flex justify-center items-center text-gray-700 text-3xl">
               ?
             </p>
 
@@ -139,51 +139,51 @@ const DataAnalysisDemandPlanning = () => {
               Highly Practical
             </p>
 
-            <h1 className="text-2xl text-white font-semibold pt-8">
+            <h1 className="text-2xl text-gray-700 font-semibold pt-8">
               What You'll Learn
             </h1>
 
             <ul className="pt-4 space-y-4 leading-relaxed">
-              <li className="flex items-center gap-3 text-md text-white">
+              <li className="flex items-center gap-3 text-md text-gray-700">
                 <IoCheckmark className="text-purple-500" />
                 Excel for analytics: formulas, data cleaning, pivot tables,
                 dashboards.
               </li>
 
-              <li className="flex items-center gap-3 text-md text-white">
+              <li className="flex items-center gap-3 text-md text-gray-700">
                 <IoCheckmark className="text-purple-500" />
                 Power BI: DAX, modeling, relationships & interactive dashboards.
               </li>
 
-              <li className="flex items-center gap-3 text-md text-white">
+              <li className="flex items-center gap-3 text-md text-gray-700">
                 <IoCheckmark className="text-purple-500" />
                 SQL for querying data: joins, CTEs, functions & real business
                 datasets.
               </li>
 
-              <li className="flex items-center gap-3 text-md text-white">
+              <li className="flex items-center gap-3 text-md text-gray-700">
                 <IoCheckmark className="text-purple-500" />
                 Python for data analysis: pandas, numpy, matplotlib, seaborn.
               </li>
 
-              <li className="flex items-center gap-3 text-md text-white">
+              <li className="flex items-center gap-3 text-md text-gray-700">
                 <IoCheckmark className="text-purple-500" />
                 Forecasting: demand planning methods, trends, seasonality &
                 prediction.
               </li>
 
-              <li className="flex items-center gap-3 text-md text-white">
+              <li className="flex items-center gap-3 text-md text-gray-700">
                 <IoCheckmark className="text-purple-500" />
                 Business reporting: KPI design, visualization & storytelling.
               </li>
 
-              <li className="flex items-center gap-3 text-md text-white">
+              <li className="flex items-center gap-3 text-md text-gray-700">
                 <IoCheckmark className="text-purple-500" />
                 Real demand planning scenarios using FMCG, retail & supply chain
                 data.
               </li>
 
-              <li className="flex items-center gap-3 text-md text-white">
+              <li className="flex items-center gap-3 text-md text-gray-700">
                 <IoCheckmark className="text-purple-500" />
                 End-to-end portfolio projects for job placement.
               </li>
@@ -192,7 +192,7 @@ const DataAnalysisDemandPlanning = () => {
 
           {/* COURSE CONTENT */}
           <div className="gap-2 items-center pt-15">
-            <p className="w-15 h-15 rounded-full bg-purple-600/20 flex justify-center items-center text-white text-3xl">
+            <p className="w-15 h-15 rounded-full bg-purple-600/20 flex justify-center items-center text-gray-700 text-3xl">
               ?
             </p>
 
@@ -200,19 +200,22 @@ const DataAnalysisDemandPlanning = () => {
               A Perfectly Structured Course
             </p>
 
-            <div className="font-out font-semibold my-2">
-              <p className="font-medium pt-2 text-md">
-                Timing: Weekdays / Saturday (2pm - 5pm)
+            <div className="font-mon font-bold my-2 text-xl text-black">
+              <p className="pt-2 my-2">
+                Price : &#x20A6;350,000
               </p>
-              <p className="font-medium pt-2 text-md">Duration: 4 Months</p>
-              <p className="font-medium pt-2 text-md">
+              <p className="pt-2 my-2">
+                Timing: Weekdays or Saturday 
+              </p>
+              <p className="pt-2 my-2">Duration: 4-Months</p>
+              <p className="pt-2 my-2">
                 Format: Online (Live Interactive)
               </p>
-              <p className="font-medium pt-2 text-md">3+ Industry Projects</p>
-              <p className="font-medium pt-2 text-md">
+              <p className="pt-2 my-2">3+ Industry Projects</p>
+              <p className="pt-2 my-2">
                 Flexible Payment (3 Installments)
               </p>
-              <p className="font-medium pt-2 text-md">
+              <p className="pt-2 my-2">
                 Class Recordings After Each Session
               </p>
             </div>
@@ -226,7 +229,7 @@ const DataAnalysisDemandPlanning = () => {
 
           {/* TARGET STUDENT */}
           <div className="gap-2 items-center pt-15">
-            <p className="w-15 h-15 rounded-full bg-purple-600/20 flex justify-center items-center text-white text-3xl">
+            <p className="w-15 h-15 rounded-full bg-purple-600/20 flex justify-center items-center text-gray-700 text-3xl">
               ?
             </p>
 
@@ -234,28 +237,28 @@ const DataAnalysisDemandPlanning = () => {
               Target Student
             </p>
 
-            <h1 className="text-2xl text-white font-semibold pt-8">
+            <h1 className="text-2xl text-gray-700 font-semibold pt-8">
               Who Is This For?
             </h1>
 
-            <p className="flex items-center gap-3 pt-4 text-white">
+            <p className="flex items-center gap-3 pt-4 text-gray-700">
               <IoCheckmark className="text-purple-500" />
               Beginners who want to start a career in data or business
               analytics.
             </p>
 
-            <p className="flex items-center gap-3 pt-4 text-white">
+            <p className="flex items-center gap-3 pt-4 text-gray-700">
               <IoCheckmark className="text-purple-500" />
               Professionals seeking to transition into data analysis or
               operations.
             </p>
 
-            <p className="flex items-center gap-3 pt-4 text-white">
+            <p className="flex items-center gap-3 pt-4 text-gray-700">
               <IoCheckmark className="text-purple-500" />
               Anyone looking to gain skills in forecasting & demand planning.
             </p>
 
-            <p className="flex items-center gap-3 pt-4 text-white">
+            <p className="flex items-center gap-3 pt-4 text-gray-700">
               <IoCheckmark className="text-purple-500" />
               Students, NYSC members, jobseekers & business-oriented learners.
             </p>

@@ -27,49 +27,37 @@ const DemandPlanner = () => {
       />
       <div className="flex flex-col lg:flex-row min-h-screen justify-center gap-30 mt-20 p-4 md:p-8">
         {/* Side bar */}
-        <aside className='lg:sticky top-30 "w-[400px]  self-start p-4'>
+        <aside className='lg:sticky top-30 "w-[400px] self-start p-4'>
           <ul className="space-y-5">
-            <li className=" text-white  text-xl  flex items-center  gap-3">
+            <li className="text-gray-700 text-xl flex items-center gap-3">
               <IoBookOutline /> About the course
             </li>
-            <li className=" text-white  text-xl flex items-center gap-3 ">
-              <IoBulbOutline />
-              What You'll Learn
+            <li className="text-gray-700 text-xl flex items-center gap-3">
+              <IoBulbOutline /> What You'll Learn
             </li>
-            <li className=" text-white  text-xl flex items-center gap-3">
-              {" "}
-              <IoCheckmarkDoneOutline />
-              Curriculum
+            <li className="text-gray-700 text-xl flex items-center gap-3">
+              <IoCheckmarkDoneOutline /> Curriculum
             </li>
-            <li className=" text-white  text-xl flex gap-3 items-center">
-              {" "}
-              <IoPerson />
-              Target Audience
+            <li className="text-gray-700 text-xl flex gap-3 items-center">
+              <IoPerson /> Target Audience
             </li>
-            <li className=" text-white  text-xl flex items-center gap-3">
-              {" "}
-              <GiRoundShield />
-              Prerequisites
+            <li className="text-gray-700 text-xl flex items-center gap-3">
+              <GiRoundShield /> Prerequisites
             </li>
-            <li className=" text-white  text-xl flex gap-3 items-center">
-              {" "}
-              <IoPerson />
-              Your Instructor
+            <li className="text-gray-700 text-xl flex gap-3 items-center">
+              <IoPerson /> Your Instructor
             </li>
-            <li className=" text-white  text-xl flex gap-3 items-center">
-              {" "}
-              <AiOutlineMessage />
-              Reviews
+            <li className="text-gray-700 text-xl flex gap-3 items-center">
+              <AiOutlineMessage /> Reviews
             </li>
-            <li className=" text-white  text-xl flex gap-3 items-center">
-              {" "}
-              <LuPackageOpen />
-              Exclusive Bonus
+            <li className="text-gray-700 text-xl flex gap-3 items-center">
+              <LuPackageOpen /> Exclusive Bonus
             </li>
           </ul>
+
           <Link
             to="/contact"
-            className="bg-purple-700 text-white text-[20px] rounded-full px-8 py-3 mt-3"
+            className="bg-blue-950 text-white text-[20px] rounded-full px-8 py-3 mt-3 inline-block"
           >
             Enroll now
           </Link>
@@ -79,7 +67,7 @@ const DemandPlanner = () => {
 
         <div className=" md:max-w-[700px] lg:max-w-[800px]   ">
           <div>
-            <p className="w-15 h-15 rounded-full bg-purple-600/20 flex justify-center items-center text-white text-3xl">
+            <p className="w-15 h-15 rounded-full bg-purple-600/20 flex justify-center items-center text-gray-700 text-3xl">
               ?
             </p>
 
@@ -93,10 +81,10 @@ const DemandPlanner = () => {
             </div>
 
             <div>
-              <h1 className=" text-2xl text-white font-semibold pt-8">
+              <h1 className=" text-2xl text-gray-700 font-semibold pt-8">
                 ABOUT THE COURSE
               </h1>
-              <p className=" pt-4 text-white text-lg text-justify leading-relaxed">
+              <p className=" pt-4 text-gray-700 text-lg text-justify leading-relaxed">
                 Master practical demand planning in 3 months. This hands-on
                 program teaches forecasting methods, inventory optimization,
                 S&OP processes, and analytics using Excel and Power BI. Through
@@ -110,7 +98,7 @@ const DemandPlanner = () => {
 
           {/* what you will learn */}
           <div className="gap-2 items-center pt-15">
-            <p className="w-15 h-15 rounded-full bg-purple-600/20 flex justify-center items-center text-white text-3xl">
+            <p className="w-15 h-15 rounded-full bg-purple-600/20 flex justify-center items-center text-gray-700 text-3xl">
               ?
             </p>
 
@@ -119,47 +107,47 @@ const DemandPlanner = () => {
             </p>
 
             <div>
-              <h1 className="text-2xl text-white font-semibold pt-8">
+              <h1 className="text-2xl text-gray-700 font-semibold pt-8">
                 What You'll Learn
               </h1>
 
               <ul className="pt-4 space-y-4 leading-relaxed">
-                <li className="flex items-center gap-3 text-md text-white">
+                <li className="flex items-center gap-3 text-md text-gray-700">
                   <IoCheckmark className="text-purple-500" />
                   Core demand planning concepts: demand types, drivers and KPIs (MAPE, RMSE, bias).
                 </li>
 
-                <li className="flex items-center gap-3 text-md text-white">
+                <li className="flex items-center gap-3 text-md text-gray-700">
                   <IoCheckmark className="text-purple-500" />
                   Time-series forecasting methods: moving averages, exponential smoothing (SES, DES, TES) and decomposition.
                 </li>
 
-                <li className="flex items-center gap-3 text-md text-white">
+                <li className="flex items-center gap-3 text-md text-gray-700">
                   <IoCheckmark className="text-purple-500" />
                   Advanced forecasting techniques: regression, causal models and demand sensing approaches.
                 </li>
 
-                <li className="flex items-center gap-3 text-md text-white">
+                <li className="flex items-center gap-3 text-md text-gray-700">
                   <IoCheckmark className="text-purple-500" />
                   Inventory optimization: safety stock, reorder points, ABC segmentation and service-level trade-offs.
                 </li>
 
-                <li className="flex items-center gap-3 text-md text-white">
+                <li className="flex items-center gap-3 text-md text-gray-700">
                   <IoCheckmark className="text-purple-500" />
                   Practical Excel skills: PivotTables, lookup functions, scenario analysis and what-if modelling.
                 </li>
 
-                <li className="flex items-center gap-3 text-md text-white">
+                <li className="flex items-center gap-3 text-md text-gray-700">
                   <IoCheckmark className="text-purple-500" />
                   Power BI for planners: data modelling, visuals, and building interactive executive dashboards.
                 </li>
 
-                <li className="flex items-center gap-3 text-md text-white">
+                <li className="flex items-center gap-3 text-md text-gray-700">
                   <IoCheckmark className="text-purple-500" />
                   S&OP and integrated planning: demand reviews, supply reviews, collaboration with sales/finance and KPI-driven decisions.
                 </li>
 
-                <li className="flex items-center gap-3 text-md text-white">
+                <li className="flex items-center gap-3 text-md text-gray-700">
                   <IoCheckmark className="text-purple-500" />
                   End-to-end capstone: produce a full demand plan, dashboard and scenario analysis to include in your portfolio.
                 </li>
@@ -169,7 +157,7 @@ const DemandPlanner = () => {
 
           {/* course content */}
           <div className=" gap-2 items-center  pt-15 ">
-            <p className="w-15 h-15 rounded-full bg-purple-600/20 flex justify-center items-center text-white text-3xl">
+            <p className="w-15 h-15 rounded-full bg-purple-600/20 flex justify-center items-center text-gray-700 text-3xl">
               ?
             </p>
 
@@ -202,7 +190,7 @@ const DemandPlanner = () => {
 
           {/* Target Student */}
           <div className=" gap-2 items-center  pt-15 ">
-            <p className="w-15 h-15 rounded-full bg-purple-600/20 flex justify-center items-center text-white text-3xl">
+            <p className="w-15 h-15 rounded-full bg-purple-600/20 flex justify-center items-center text-gray-700 text-3xl">
               ?
             </p>
 
@@ -210,26 +198,26 @@ const DemandPlanner = () => {
               Target Student
             </p>
             <div>
-              <h1 className="text-2xl text-white font-semibold pt-8">
+              <h1 className="text-2xl text-gray-700 font-semibold pt-8">
                 Who Is This For?
               </h1>
 
-              <p className="flex items-center gap-3 pt-4 text-white leading-relaxed">
+              <p className="flex items-center gap-3 pt-4 text-gray-700 leading-relaxed">
                 <IoCheckmark className="text-purple-500" />
                 Supply chain professionals seeking hands-on forecasting and planning skills.
               </p>
 
-              <p className="flex items-center gap-3 pt-4 text-white leading-relaxed">
+              <p className="flex items-center gap-3 pt-4 text-gray-700 leading-relaxed">
                 <IoCheckmark className="text-purple-500" />
                 Analysts and business users who want to build data-driven demand models and dashboards.
               </p>
 
-              <p className="flex items-center gap-3 pt-4 text-white leading-relaxed">
+              <p className="flex items-center gap-3 pt-4 text-gray-700 leading-relaxed">
                 <IoCheckmark className="text-purple-500" />
                 Career changers aiming to become demand planners or S&OP coordinators.
               </p>
 
-              <p className="flex items-center gap-3 pt-4 text-white leading-relaxed">
+              <p className="flex items-center gap-3 pt-4 text-gray-700 leading-relaxed">
                 <IoCheckmark className="text-purple-500" />
                 Managers who need to interpret forecasts, set targets and run effective S&OP meetings.
               </p>
