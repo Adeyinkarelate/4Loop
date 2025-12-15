@@ -251,7 +251,7 @@ export default function Contact() {
               <div className="card-body">
                 <form className="fieldset" onSubmit={handleSubmit}>
                   <div>
-                    <label className="label text-gray-800 my-2">Full Name</label>
+                    <label className="label text-gray-800 dark:text-gray-100 my-2">Full Name</label>
                     <input
                       type="text"
                       className="input"

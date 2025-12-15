@@ -53,28 +53,28 @@ const DevOPs = () => {
         {/* Side bar */}
         <aside className='lg:sticky top-30 "w-[400px] self-start p-4'>
           <ul className="space-y-5">
-            <li className="text-gray-700 text-xl flex items-center gap-3">
+            <li className="text-gray-700  dark:text-gray-100 text-xl flex items-center gap-3">
               <IoBookOutline /> About the course
             </li>
-            <li className="text-gray-700 text-xl flex items-center gap-3">
+            <li className="text-gray-700  dark:text-gray-100 text-xl flex items-center gap-3">
               <IoBulbOutline /> What You'll Learn
             </li>
-            <li className="text-gray-700 text-xl flex items-center gap-3">
+            <li className="text-gray-700  dark:text-gray-100 text-xl flex items-center gap-3">
               <IoCheckmarkDoneOutline /> Curriculum
             </li>
-            <li className="text-gray-700 text-xl flex gap-3 items-center">
+            <li className="text-gray-700  dark:text-gray-100 text-xl flex gap-3 items-center">
               <IoPerson /> Target Audience
             </li>
-            <li className="text-gray-700 text-xl flex items-center gap-3">
+            <li className="text-gray-700  dark:text-gray-100 text-xl flex items-center gap-3">
               <GiRoundShield /> Prerequisites
             </li>
-            <li className="text-gray-700 text-xl flex gap-3 items-center">
+            <li className="text-gray-700  dark:text-gray-100 text-xl flex gap-3 items-center">
               <IoPerson /> Your Instructor
             </li>
-            <li className="text-gray-700 text-xl flex gap-3 items-center">
+            <li className="text-gray-700  dark:text-gray-100 text-xl flex gap-3 items-center">
               <AiOutlineMessage /> Reviews
             </li>
-            <li className="text-gray-700 text-xl flex gap-3 items-center">
+            <li className="text-gray-700  dark:text-gray-100 text-xl flex gap-3 items-center">
               <LuPackageOpen /> Exclusive Bonus
             </li>
           </ul>
@@ -91,7 +91,7 @@ const DevOPs = () => {
 
         <div className=" md:max-w-[700px] lg:max-w-[800px]   ">
           <div>
-            <p className="w-15 h-15 rounded-full bg-purple-600/20 flex justify-center items-center text-gray-700 text-3xl">
+            <p className="w-15 h-15 rounded-full bg-purple-600/20 flex justify-center items-center text-gray-700  dark:text-gray-100 text-3xl">
               ?
             </p>
 
@@ -105,10 +105,10 @@ const DevOPs = () => {
             </div>
             {/* =============change================ */}
             <div>
-              <h1 className=" text-2xl text-gray-700 font-semibold pt-8">
+              <h1 className=" text-2xl text-gray-700  dark:text-gray-100 font-semibold pt-8">
                 ABOUT THE COURSE
               </h1>
-              <p className=" pt-4 text-gray-700 text-lg text-justify leading-relaxed">
+              <p className=" pt-4 text-gray-700  dark:text-gray-100 text-lg text-justify leading-relaxed">
                 This comprehensive 4-month course is designed to take you on a
                 complete journey through the fundamentals and advanced practices
                 of DevOps. You'll gain hands-on experience with
@@ -130,7 +130,7 @@ const DevOPs = () => {
           {/* what tou will learn */}
 
           <div className="gap-2 items-center pt-15">
-            <p className="w-15 h-15 rounded-full bg-purple-600/20 flex justify-center items-center text-gray-700 text-3xl">
+            <p className="w-15 h-15 rounded-full bg-purple-600/20 flex justify-center items-center text-gray-700  dark:text-gray-100 text-3xl">
               ?
             </p>
 
@@ -139,32 +139,32 @@ const DevOPs = () => {
             </p>
 
             <div>
-              <h1 className="text-2xl text-gray-700 font-semibold pt-8">
+              <h1 className="text-2xl text-gray-700  dark:text-gray-100 font-semibold pt-8">
                 What You'll Learn
               </h1>
 
               <ul className="pt-4 space-y-4 leading-relaxed">
-                <li className="flex items-center gap-3 text-md text-gray-700">
+                <li className="flex items-center gap-3 text-md text-gray-700  dark:text-gray-100">
                   <IoCheckmark className="text-purple-500" />
                   Tech learners or career changers interested in mastering
                   Continuous Integration (CI), Continuous Deployment (CD), cloud
                   infrastructure automation, and container orchestration.
                 </li>
 
-                <li className="flex items-center gap-3 text-md text-gray-700">
+                <li className="flex items-center gap-3 text-md text-gray-700  dark:text-gray-100">
                   <IoCheckmark className="text-purple-500" />
                   Beginners looking to learn AWS and DevOps from scratch, with
                   step-by-step guidance and hands-on labs.
                 </li>
 
-                <li className="flex items-center gap-3 text-md text-gray-700">
+                <li className="flex items-center gap-3 text-md text-gray-700  dark:text-gray-100">
                   <IoCheckmark className="text-purple-500" />
                   Aspiring DevOps Engineers who want to build a strong
                   foundation in Linux, cloud computing, automation, and modern
                   deployment tools.
                 </li>
 
-                <li className="flex items-center gap-3 text-md text-gray-700">
+                <li className="flex items-center gap-3 text-md text-gray-700  dark:text-gray-100">
                   <IoCheckmark className="text-purple-500" />
                   Developers and system administrators who want to transition
                   into DevOps and gain hands-on experience with Linux, AWS,
@@ -178,14 +178,14 @@ const DevOPs = () => {
           {/* ======================================================================================================== */}
 
           <div className=" gap-2 items-center  pt-15 ">
-            <p className="w-15 h-15 rounded-full bg-purple-600/20 flex justify-center items-center text-gray-700 text-3xl">
+            <p className="w-15 h-15 rounded-full bg-purple-600/20 flex justify-center items-center text-gray-700  dark:text-gray-100 text-3xl">
               ?
             </p>
 
             <p className="font-out text-2xl flex gap-2 items-center mt-2 bg-linear-to-r from-purple-800 to-purple-300 bg-transparent bg-clip-text text-transparent">
               A Perfectly Structured Course
             </p>
-            <div className=" font-mon font-bold my-2 text-xl text-black ">
+            <div className=" font-mon font-bold my-2 text-xl text-black dark:text-amber-600">
               <p className="pt-2">
                 Price : &#x20A6;450,000
               </p>
@@ -221,7 +221,7 @@ const DevOPs = () => {
           {/* /* Target Student *============================================/} */}
 
           <div className=" gap-2 items-center  pt-15 ">
-            <p className="w-15 h-15 rounded-full bg-purple-600/20 flex justify-center items-center text-gray-700 text-3xl">
+            <p className="w-15 h-15 rounded-full bg-purple-600/20 flex justify-center items-center text-gray-700  dark:text-gray-100 text-3xl">
               ?
             </p>
 
@@ -229,11 +229,11 @@ const DevOPs = () => {
               Target Student
             </p>
             <div>
-              <h1 className=" text-2xl text-gray-700 font-semibold pt-8">
+              <h1 className=" text-2xl text-gray-700  dark:text-gray-100 font-semibold pt-8">
                 Who Is This For?
               </h1>
 
-              <p className="flex items-center gap-3  pt-4 text-gray-700 leading-relaxed">
+              <p className="flex items-center gap-3  pt-4 text-gray-700  dark:text-gray-100 leading-relaxed">
                 {" "}
                 <IoCheckmark className="text-purple-500" />
                 Perfect for anyone who wants to build real-world DevOps skills
@@ -241,7 +241,7 @@ const DevOPs = () => {
                 industry.
               </p>
 
-              <p className="flex items-center gap-3 leading-relaxed pt-4 text-gray-700">
+              <p className="flex items-center gap-3 leading-relaxed pt-4 text-gray-700  dark:text-gray-100">
                 {" "}
                 <IoCheckmark className="text-purple-500" />
                 Anyone aiming to become a job-ready DevOps Engineer with

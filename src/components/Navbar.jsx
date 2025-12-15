@@ -52,6 +52,9 @@ const Navbar = () => {
             <li>
               <Link to="/courses">Courses</Link>
             </li>
+            <li>
+            <Link to="/OneYearAccess">1 Year Membership</Link>
+          </li>
           </ul>
         </div>
         {/* ========================== */}

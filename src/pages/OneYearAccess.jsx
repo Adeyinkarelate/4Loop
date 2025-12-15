@@ -209,7 +209,7 @@ const OneYearAccess = () => {
             designed learning paths.
           </p>
           <Link
-              href="/contact"
+              to="/contact"
               className=" px-10 py-4 bg-blue-950 text-white font-bold rounded-lg text-xl transition"
             >
               Enroll Now
