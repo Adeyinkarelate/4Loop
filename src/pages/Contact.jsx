@@ -264,7 +264,7 @@ export default function Contact() {
                   </div>
 
                   <div>
-                    <label className="label text-gray-800 my-2">
+                    <label className="label text-gray-800 dark:text-gray-100 my-2">
                       Phone Number
                     </label>
                     <input
@@ -279,18 +279,18 @@ export default function Contact() {
                   </div>
 
                   <div>
-                    <label className="label text-gray-800 my-2">
+                    <label className="label text-gray-800 dark:text-gray-100 my-2">
                       Select Course
                     </label>
                     <select
-                      className="input"
+                      className="input text-gray-800 dark:text-gray-100"
                       value={formData.course}
                       onChange={(e) =>
                         setFormData({ ...formData, course: e.target.value })
                       }
                       required
                     >
-                      <option value="">-- Choose a Course --</option>
+                      <option value="" >-- Choose a Course --</option>
                       {courses.map((course) => (
                         <option key={course} value={course}>
                           {course}
@@ -300,7 +300,7 @@ export default function Contact() {
                   </div>
 
                   <div>
-                    <label className="label text-gray-800 my-2">Message</label>
+                    <label className="label text-gray-800 dark:text-gray-100 my-2">Message</label>
                     <textarea
                       rows="5"
                       className="w-full p-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-indigo-500"
