@@ -800,7 +800,7 @@ export const DataAnalysisModules = [
           "DAX fundamentals: measures & calculated columns",
           "Time intelligence functions (YTD, MTD, QoQ)",
           "Row-level security & permissions",
-          "Optimizing Power BI models performance",
+          "Optimizing Power BI model performance",
           "Publishing & scheduling automated reports",
           "Build a full business analytics dashboard",
         ],
@@ -809,28 +809,28 @@ export const DataAnalysisModules = [
   },
 
   {
-    title: "Month 4: Python for Data Analysis",
+    title: "Month 4: Looker for Business Intelligence",
     submodules: [
       {
-        name: "Module 7: Python Essentials (Week 13–14)",
+        name: "Module 7: Looker Essentials (Week 13–14)",
         items: [
-          "Python syntax, data types & OOP basics",
-          "Loops, functions, modules & virtual environments",
-          "Working with files: CSV, JSON & Excel",
-          "Error handling, debugging & best coding practices",
-          "Numpy fundamentals for numerical computing",
-          "Build an analysis script with Python",
+          "Introduction to Looker & modern BI concepts",
+          "Connecting databases and data sources",
+          "Understanding LookML fundamentals",
+          "Explores, dimensions & measures",
+          "Creating basic Looker dashboards",
+          "Building your first Looker BI project",
         ],
       },
       {
-        name: "Module 8: Data Analysis with Pandas (Week 15–16)",
+        name: "Module 8: Advanced Looker & LookML (Week 15–16)",
         items: [
-          "DataFrames, series & indexing",
-          "Data cleaning: handling missing values, duplicates & outliers",
-          "Grouping, merging & joining datasets",
-          "Statistical analysis with Python",
-          "Working with Matplotlib for visualizations",
-          "Mini project using Pandas + Matplotlib",
+          "Advanced LookML modeling techniques",
+          "Joins, derived tables & persistent derived tables (PDTs)",
+          "Custom measures & calculations",
+          "User permissions, roles & governance",
+          "Optimizing Looker performance",
+          "Mini project using Looker dashboards",
         ],
       },
     ],
@@ -856,7 +856,7 @@ export const DataAnalysisModules = [
           "Time series analysis fundamentals",
           "Moving averages, smoothing & trend modeling",
           "Demand forecasting basics",
-          "Predictive modeling with Python",
+          "Forecasting with BI tools & spreadsheet models",
           "Analytics solutions for sales, finance & operations",
           "Project: Forecasting model for real business data",
         ],
@@ -872,26 +872,27 @@ export const DataAnalysisModules = [
         items: [
           "Select a real dataset (finance, HR, marketing, operations)",
           "Define business problem & KPIs",
-          "Apply SQL, Excel, Python & Power BI",
-          "Build dashboards + insights report",
+          "Apply SQL, Excel, Power BI & Looker",
+          "Build dashboards and insight reports",
           "Prepare executive summary & presentation",
-          "Peer code review and improvement",
+          "Peer review and project refinement",
         ],
       },
       {
         name: "Module 12: Career Readiness (Week 23–24)",
         items: [
-          "Building a top-tier analytics portfolio",
-          "Resume & LinkedIn optimization for data roles",
+          "Building a job-ready analytics portfolio",
+          "Resume & LinkedIn optimization for BI roles",
           "Technical interview prep for SQL, BI & analytics",
           "Mock interviews & analytics case studies",
-          "How to get freelance and remote analytics jobs",
+          "How to land remote and freelance analytics jobs",
           "Final presentation & certification",
         ],
       },
     ],
   },
 ];
+
 
 export const LinuxSysModules = [
   {

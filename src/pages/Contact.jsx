@@ -173,7 +173,7 @@ export default function Contact() {
                       fill="currentColor"
                     />
                   </svg>
-                  +234 906357130
+                  +234 7068999895
                 </li>
                 <li className="relative inline-flex items-center gap-x-2 px-0 py-3 pr-8 text-gray-800 before:absolute before:right-3 before:top-1/2 before:h-1 before:w-1 before:-translate-y-1/2 before:rounded-full before:bg-gray-300 last:pr-0 last-of-type:before:hidden">
                   <svg
@@ -303,7 +303,7 @@ export default function Contact() {
                     <label className="label text-gray-800 dark:text-gray-100 my-2">Message</label>
                     <textarea
                       rows="5"
-                      className="w-full p-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-indigo-500"
+                      className="w-full p-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-indigo-500 dark:text-gray-100"
                       value={formData.message}
                       onChange={(e) =>
                         setFormData({ ...formData, message: e.target.value })
